@@ -1,0 +1,15 @@
+streamlit
+sentence-transformers
+faiss-cpu
+rank-bm25
+pymupdf
+groq
+tqdm
+scikit-learn
+numpy
+pillow
+pdfplumber
+pdfminer.six
+tiktoken
+transformers
+torch
