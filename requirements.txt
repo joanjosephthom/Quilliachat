@@ -13,3 +13,4 @@ pdfminer.six
 tiktoken
 transformers
 torch
+sentencepiece
