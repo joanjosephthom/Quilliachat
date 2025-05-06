@@ -19,7 +19,7 @@ TOP_K_CHUNKS = 5
 
 # Chunking settings
 MAX_CHUNK_SIZE = 500
-MIN_CHUNK_SIZE = 300
+MIN_CHUNK_SIZE = 100
 CHUNK_OVERLAP = 50
 
 # Model settings

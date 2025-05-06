@@ -59,8 +59,9 @@ class StructuredChunker:
                    page_count: int) -> List[Dict[str, Any]]:
         """Chunk text by sections and size."""
         # Identify potential section headers
-        section_pattern = r'(?m)^(?:(?:\d+\.)+\s+|\b(?:[A-Z][a-z]*\s*){1,5}:|\b[A-Z][A-Z\s]{3,20}\b)'
-        sections = re.split(f'({section_pattern})', text)
+        section_pattern = r'^(?:(?:\d+\.)+\s+|\b(?:[A-Z][a-z]*\s*){1,5}:|\b[A-Z][A-Z\s]{3,20}\b)'
+        sections = re.split(f'({section_pattern})', text, flags=re.MULTILINE)
+
         
         chunks = []
         current_section = ""

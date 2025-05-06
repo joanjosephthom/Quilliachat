@@ -8,10 +8,8 @@ from config import (
 from indexers.index_builder import IndexBuilder
 from llm.groq_llm import GroqLLM
 from llm.DeepSeekR1 import DeepSeekR1
-from utils import compute_file_hash
-from utils import generate_paraphrases, build_token_limited_context
+from utils import compute_file_hash, generate_paraphrases, build_token_limited_context
 import numpy
-
 
 # --- Accent Colors ---
 ACCENT_BLUE = "#5380ff"
@@ -119,6 +117,7 @@ st.markdown(f"""
         .chat-area, .chat-input-area {{ max-width: 98vw; }}
         .quillia-title {{ font-size: 1.5rem; }}
         .quillia-tagline {{ font-size: 1.05rem; }}
+        .chat-area {{ padding-bottom: 80px !important; }}
     }}
 </style>
 """, unsafe_allow_html=True)
@@ -140,8 +139,6 @@ if "uploaded_file_name" not in st.session_state:
     st.session_state.uploaded_file_name = None
 if "file_hash" not in st.session_state:
     st.session_state.file_hash = None
-if "doc_summary" not in st.session_state:
-    st.session_state.doc_summary = None
 if "index_builder" not in st.session_state:
     st.session_state.index_builder = IndexBuilder()
 if "llm_choice" not in st.session_state:
@@ -157,52 +154,6 @@ if "top_k_chunks" not in st.session_state:
 if "is_generating" not in st.session_state:
     st.session_state.is_generating = False
 
-# --- Helper Functions ---
-
-def select_summary_chunks(chunks, max_chunks=3):
-    """
-    Select the best chunks for summarization:
-    - Prefer chunks with 'abstract', 'introduction', 'summary', 'overview' in section title.
-    - Skip chunks with 'license', 'copyright', 'table of contents'.
-    - If none found, use the first N non-empty, non-boilerplate chunks.
-    """
-    preferred_keywords = ["abstract", "introduction", "summary", "overview"]
-    skip_keywords = ["license", "copyright", "table of contents", "permission"]
-
-    # Prefer chunks with preferred keywords in section
-    preferred = [
-        chunk for chunk in chunks
-        if chunk.get("section") and any(k in chunk["section"].lower() for k in preferred_keywords)
-    ]
-    if preferred:
-        return preferred[:max_chunks]
-
-    # Otherwise, skip chunks with skip keywords in section or text
-    filtered = [
-        chunk for chunk in chunks
-        if not any(k in (chunk.get("section", "") + " " + chunk.get("text", "")).lower() for k in skip_keywords)
-    ]
-    if filtered:
-        return filtered[:max_chunks]
-
-    # Fallback: just use the first N chunks
-    return chunks[:max_chunks]
-
-def generate_llm_summary(llm, chunks, max_chunks=3, max_tokens=5000, model_name="llama-3-70b"):
-    """Generate a summary using the LLM and the best available chunks, with token limit."""
-    selected_chunks = select_summary_chunks(chunks, max_chunks)
-    if not selected_chunks:
-        return "No content to summarize."
-    # Limit the context by tokens
-    context, _ = build_token_limited_context(selected_chunks, max_tokens=max_tokens, model_name=model_name)
-    prompt = (
-        "Summarize the following document in 3-4 sentences for a user who wants to know what it's about. "
-        "Be concise and clear.\n\n"
-        f"Document Content:\n{context}"
-    )
-    summary = llm.generate_response(prompt, [], include_sources=False)
-    return summary.strip()
-
 # --- Sidebar (Settings & About) ---
 with st.sidebar:
     if st.button("Home", use_container_width=True):
@@ -210,7 +161,6 @@ with st.sidebar:
         st.session_state.uploaded_file_bytes = None
         st.session_state.uploaded_file_name = None
         st.session_state.file_hash = None
-        st.session_state.doc_summary = None
         st.session_state.messages = []
         st.session_state.index_builder = IndexBuilder()
         if st.session_state.get("llm_choice", "Groq Llama 3") == "Groq Llama 3":
@@ -262,16 +212,14 @@ with st.sidebar:
         if selected_embedding_model != st.session_state.embedding_model_choice:
             st.session_state.embedding_model_choice = selected_embedding_model
             st.session_state.index_builder = IndexBuilder()
-            # Clear all document-related state to force re-upload and re-indexing
             st.session_state.uploaded_file_bytes = None
             st.session_state.uploaded_file_name = None
             st.session_state.file_hash = None
-            st.session_state.doc_summary = None
             st.session_state.messages = []
-            st.session_state.app_mode = "initial"  # <--- This is the key line!
+            st.session_state.app_mode = "initial"
             st.rerun()
 
-            #Paraphrasing enabler
+        # Paraphrasing enabler
         use_query_expansion = st.checkbox("Enable Query Expansion (Paraphrasing)", value=True)
 
         # Chunk count slider
@@ -282,7 +230,6 @@ with st.sidebar:
             value=st.session_state.top_k_chunks,
             key="top_k_slider"
         )
-            # --- About Quillia (always visible) ---
     st.markdown("""
 <div class="about-section">
 <strong>Quillia: Turning pages into conversations...</strong>
@@ -329,16 +276,15 @@ if st.session_state.app_mode == "initial":
         st.session_state.messages = []
         st.session_state.index_builder = IndexBuilder()
         st.rerun()
-    # Footer (fixed)
     st.markdown(f'<div class="footer-fixed">Quillia &copy; 2025 &mdash; Built with ♥ by Joan Joseph Thomas</div>', unsafe_allow_html=True)
 
 # === SCREEN 1.5: Processing Uploaded File ===
 if st.session_state.app_mode == "processing":
     with st.spinner(f"Processing {st.session_state.uploaded_file_name}..."):
         if st.session_state.uploaded_file_bytes is None:
-             st.error("File data is missing. Please re-upload.")
-             st.session_state.app_mode = "initial"
-             st.rerun()
+            st.error("File data is missing. Please re-upload.")
+            st.session_state.app_mode = "initial"
+            st.rerun()
         try:
             chunks = st.session_state.index_builder.process_file_bytes(
                 st.session_state.uploaded_file_bytes, st.session_state.uploaded_file_name
@@ -351,12 +297,10 @@ if st.session_state.app_mode == "processing":
             st.session_state.uploaded_file_bytes = None
             time.sleep(2)
             st.rerun()
-        # Generate a true summary using the LLM and best chunks
-        st.session_state.doc_summary = generate_llm_summary(st.session_state.llm, chunks)
-        # Add summary as the first message in chat history
+        # Set the first chat message to a friendly intro
         st.session_state.messages = [{
             "role": "assistant",
-            "content": f"**Document Summary:**\n\n{st.session_state.doc_summary}"
+            "content": f"Quillia is listening! Ask your questions about **{st.session_state.uploaded_file_name}** and I’ll help you explore."
         }]
         st.session_state.app_mode = "chat"
         st.rerun()
@@ -371,14 +315,12 @@ if st.session_state.app_mode == "chat":
             )
         else:
             st.markdown(message["content"])
-    # Auto-scroll to bottom JS
     st.markdown("""
     <script>
     var chatArea = window.parent.document.getElementById("chat-area");
     if (chatArea) { chatArea.scrollTop = chatArea.scrollHeight; }
     </script>
     """, unsafe_allow_html=True)
-    # Chat input at bottom, above fixed footer
     st.markdown('<div class="chat-input-area">', unsafe_allow_html=True)
     if not st.session_state.is_generating:
         prompt = st.chat_input(
@@ -398,7 +340,6 @@ if st.session_state.app_mode == "chat":
         )
         st.info("Generating answer...")
     st.markdown('</div>', unsafe_allow_html=True)
-    # Fixed Footer
     st.markdown(f'<div class="footer-fixed">Quillia &copy; 2025 &mdash; Built with ♥ by Joan Joseph Thomas</div>', unsafe_allow_html=True)
 
 # --- Handle Response Generation AFTER potential rerun from input ---
