@@ -3,11 +3,11 @@ import fitz
 import time
 from config import (
     RETRIEVAL_STRATEGY, TOP_K_CHUNKS, APP_TITLE, APP_DESCRIPTION,
-    GROQ_API_KEY, OPENROUTER_API_KEY, EMBEDDING_MODELS
+    GROQ_API_KEY, EMBEDDING_MODELS
 )
 from indexers.index_builder import IndexBuilder
 from llm.groq_llm import GroqLLM
-from llm.DeepSeekR1 import DeepSeekR1
+from llm.gemini_flash import GeminiFlashLLM  # <-- Your Gemini class here
 from utils import compute_file_hash, generate_paraphrases, build_token_limited_context
 import numpy
 
@@ -113,6 +113,14 @@ st.markdown(f"""
         border-top: 1px solid #222;
         letter-spacing: 0.01em;
     }}
+    .stTooltipContent {{
+        font-size: 1.05rem;
+        color: #222;
+        background: #eaf1fb;
+        border-radius: 8px;
+        padding: 8px 12px;
+        box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.10);
+    }}
     @media (max-width: 700px) {{
         .chat-area, .chat-input-area {{ max-width: 98vw; }}
         .quillia-title {{ font-size: 1.5rem; }}
@@ -142,9 +150,9 @@ if "file_hash" not in st.session_state:
 if "index_builder" not in st.session_state:
     st.session_state.index_builder = IndexBuilder()
 if "llm_choice" not in st.session_state:
-    st.session_state.llm_choice = "Groq Llama 3"
+    st.session_state.llm_choice = "Gemini Flash 2.0"
 if "llm" not in st.session_state:
-    st.session_state.llm = GroqLLM()
+    st.session_state.llm = GeminiFlashLLM()
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "retriever_type" not in st.session_state:
@@ -163,30 +171,48 @@ with st.sidebar:
         st.session_state.file_hash = None
         st.session_state.messages = []
         st.session_state.index_builder = IndexBuilder()
-        if st.session_state.get("llm_choice", "Groq Llama 3") == "Groq Llama 3":
+        if st.session_state.get("llm_choice", "Gemini Flash 2.0") == "Gemini Flash 2.0":
+            st.session_state.llm = GeminiFlashLLM()
+        elif st.session_state.get("llm_choice") == "Groq Llama 3":
             st.session_state.llm = GroqLLM()
-        else:
-            st.session_state.llm = DeepSeekR1()
         st.rerun()
 
     # --- Advanced Settings (in expander) ---
     with st.expander("⚙️ &nbsp; Advanced Settings", expanded=False):
-        # LLM selection
-        llm_options = ["Groq Llama 3", "DeepSeek R1"]
-        llm_choice = st.selectbox("Language Model", llm_options, index=llm_options.index(st.session_state.llm_choice))
+        llm_options = ["Gemini Flash 2.0", "Groq Llama 3"]
+        llm_help = (
+            "Language Model Options:\n"
+            "1. Gemini Flash 2.0 – Google's Flash model (default - very fast, recommended).\n"
+            "2. Groq Llama 3 – Groq's Llama 3 model (fast).\n"
+        )
+        llm_choice = st.selectbox(
+            "Language Model",
+            llm_options,
+            index=llm_options.index(st.session_state.llm_choice),
+            help=llm_help
+        )
+
+
         if llm_choice != st.session_state.llm_choice:
             st.session_state.llm_choice = llm_choice
-            if llm_choice == "Groq Llama 3":
+            if llm_choice == "Gemini Flash 2.0":
+                st.session_state.llm = GeminiFlashLLM()
+            elif llm_choice == "Groq Llama 3":
                 st.session_state.llm = GroqLLM()
-            elif llm_choice == "DeepSeek R1":
-                st.session_state.llm = DeepSeekR1()
+          
 
-        # Retriever selection
+        # Retriever selection with tooltip
         retriever_options_map = {
             "bm25": "BM25 (Keywords)",
             "dense": "Dense Vector (Semantic)",
             "hybrid": "Hybrid (Keywords + Semantic)"
         }
+        retriever_help = (
+            "Retreival mode options:\n"
+            "1. BM25 - keyword (very fast, less accurate)\n"
+            "2. Dense - semantic (default - fast, accurate)\n"
+            "3. Hybrid - slow, combines both"
+        )
         if "retriever_type" not in st.session_state:
             st.session_state.retriever_type = RETRIEVAL_STRATEGY
         current_retriever_index = list(retriever_options_map.keys()).index(st.session_state.retriever_type)
@@ -195,19 +221,26 @@ with st.sidebar:
             options=list(retriever_options_map.keys()),
             format_func=lambda x: retriever_options_map[x],
             index=current_retriever_index,
-            key="retriever_select"
+            key="retriever_select",
+            help=retriever_help
         )
         # Embedding model selection (disabled if BM25)
         embedding_model_options = list(EMBEDDING_MODELS.keys())
+        embedding_help = (
+            "Choose the sentence-transformer model for dense retrieval (semantic search):\n"
+            "1. all-mpnet-base-v2 (slow, more accurate)\n"
+            "2. all-MiniLM-L6-v2 (default - fast, recommended)"
+        )
         if "embedding_model_choice" not in st.session_state:
-            st.session_state.embedding_model_choice = embedding_model_options[0]
+            st.session_state.embedding_model_choice = embedding_model_options[1]
         embedding_disabled = st.session_state.retriever_type == "bm25"
         selected_embedding_model = st.selectbox(
             "Sentence-Transformer Model (embedding)",
             embedding_model_options,
             index=embedding_model_options.index(st.session_state.embedding_model_choice),
             disabled=embedding_disabled,
-            key="embedding_model_select"
+            key="embedding_model_select",
+            help=embedding_help
         )
         if selected_embedding_model != st.session_state.embedding_model_choice:
             st.session_state.embedding_model_choice = selected_embedding_model
@@ -219,16 +252,21 @@ with st.sidebar:
             st.session_state.app_mode = "initial"
             st.rerun()
 
-        # Paraphrasing enabler
-        use_query_expansion = st.checkbox("Enable Query Expansion (Paraphrasing)", value=True)
+        # Paraphrasing enabler with tooltip
+        use_query_expansion = st.checkbox(
+            "Enable Query Expansion (Paraphrasing)",
+            value=False,
+            help="If enabled, your question will be paraphrased to improve retrieval coverage. This will make retreival slower"
+        )
 
-        # Chunk count slider
+        # Chunk count slider with tooltip
         st.session_state.top_k_chunks = st.slider(
             "Number of Chunks to Retrieve",
             min_value=1,
             max_value=10,
             value=st.session_state.top_k_chunks,
-            key="top_k_slider"
+            key="top_k_slider",
+            help="How many document chunks to retrieve for each question. Higher the number more accurate but slower the retreival"
         )
     st.markdown("""
 <div class="about-section">
@@ -241,12 +279,12 @@ Quillia is an AI-powered document assistant that lets you ask questions and rece
 <li>📄 <b>PDF parsing and intelligent chunking</b> structure your document into context-aware segments</li>
 <li>🔍 <b>Hybrid retrieval</b> (dense + sparse using FAISS and BM25) finds the most relevant information</li>
 <li>🧠 <b>Sentence Transformers</b> create semantic embeddings of document chunks</li>
-<li>🤖 <b>LLaMA 3 via Groq API, Deepseek R1 via Openrouter API</b> acts as the language model, generating grounded and context-aware answers</li>
+<li>🤖 <b>Gemini Flash 2.0, LLaMA 3 via Groq</b> act as the language model, generating grounded and context-aware answers</li>
 </ul>
 <hr style="border: 0; border-top: 1px solid #444; margin: 1.2em 0;">
 Built with ♥ by Joan Joseph Thomas
 <hr style="border: 0; border-top: 1px solid #444; margin: 1.2em 0;">
-Powered by Streamlit, FAISS, Groq, Openrouter and open-source RAG components
+Powered by Streamlit, FAISS, Groq, Openrouter, Gemini, and open-source RAG components
 </div>
 """, unsafe_allow_html=True)
 
@@ -297,7 +335,6 @@ if st.session_state.app_mode == "processing":
             st.session_state.uploaded_file_bytes = None
             time.sleep(2)
             st.rerun()
-        # Set the first chat message to a friendly intro
         st.session_state.messages = [{
             "role": "assistant",
             "content": f"Quillia is listening! Ask your questions about **{st.session_state.uploaded_file_name}** and I’ll help you explore."
@@ -314,7 +351,22 @@ if st.session_state.app_mode == "chat":
                 unsafe_allow_html=True
             )
         else:
-            st.markdown(message["content"])
+            with st.chat_message("assistant"):
+                st.markdown(message["content"])
+                # Show sources if present
+                if "sources" in message and message["sources"]:
+                    st.markdown("**Sources:**")
+                    for i, chunk in enumerate(message["sources"]):
+                        snippet = chunk["text"][:1000] + ("..." if len(chunk["text"]) > 1000 else "")
+                        with st.expander(
+                            f"Source {i+1}: {chunk.get('section','')} (Page {chunk.get('page','?')})", expanded=False
+                        ):
+                            st.markdown(f"**Document:** {chunk.get('document','')}")
+                            st.markdown(f"**Section:** {chunk.get('section','')}")
+                            st.markdown(f"**Page:** {chunk.get('page','?')}")
+                            st.markdown("**Snippet:**")
+                            st.markdown(snippet)
+                            st.markdown("---")
     st.markdown("""
     <script>
     var chatArea = window.parent.document.getElementById("chat-area");
@@ -351,6 +403,7 @@ if (
 ):
     with st.spinner("Generating answer..."):
         full_response = ""
+        sources_to_store = []
         try:
             if "index_builder" not in st.session_state or st.session_state.index_builder is None:
                 raise ValueError("Index builder not initialized.")
@@ -359,14 +412,14 @@ if (
                 raise ValueError(f"Could not find retriever: {st.session_state.retriever_type}")
             last_user_prompt = st.session_state.messages[-1]["content"]
 
-            # --- Query Expansion ---
+            # Query Expansion
             if use_query_expansion:
                 paraphrases = generate_paraphrases(last_user_prompt, num_return_sequences=3)
                 all_queries = [last_user_prompt] + paraphrases
             else:
                 all_queries = [last_user_prompt]
 
-            # --- Retrieve for each query ---
+            # Retrieve for each query
             all_chunks = []
             for q in all_queries:
                 if st.session_state.retriever_type == "hybrid":
@@ -376,11 +429,10 @@ if (
                     chunks = [chunk for chunk, _ in chunk_score_pairs]
                 all_chunks.extend(chunks)
 
-            # --- Deduplicate chunks (by id) ---
+            # Deduplicate chunks (by id)
             unique_chunks = {chunk['id']: chunk for chunk in all_chunks}.values()
-
-            # --- Use the top N by retriever order ---
             retrieved_chunks = list(unique_chunks)[:st.session_state.top_k_chunks]
+            sources_to_store = list(retrieved_chunks)
 
             if not retrieved_chunks:
                 st.warning("No relevant document chunks found to answer the question.")
@@ -388,17 +440,46 @@ if (
             if "llm" not in st.session_state or st.session_state.llm is None:
                 raise ValueError("LLM not initialized.")
 
-            llm_response = st.session_state.llm.generate_response(
-                last_user_prompt, retrieved_chunks
-            )
-            words = llm_response.split()
-            if not words:
-                full_response = "I received an empty response."
-            else:
-                for i in range(len(words)):
-                    full_response = " ".join(words[:i+1])
-                    time.sleep(0.02)
-            st.session_state.messages.append({"role": "assistant", "content": llm_response})
+            # Streaming answer generation and sources display
+            with st.chat_message("assistant"):
+                response_placeholder = st.empty()
+                if hasattr(st.session_state.llm, "stream_generate_response"):
+                    stream = st.session_state.llm.stream_generate_response(
+                        last_user_prompt, retrieved_chunks
+                    )
+                    full_response = ""
+                    for token in stream:
+                        full_response += token
+                        response_placeholder.markdown(full_response + "▌")
+                    response_placeholder.markdown(full_response)
+                else:
+                    llm_response = st.session_state.llm.generate_response(
+                        last_user_prompt, retrieved_chunks
+                    )
+                    response_placeholder.markdown(llm_response)
+                    full_response = llm_response
+
+                # Show all sources as expanders
+                if sources_to_store:
+                    st.markdown("**Sources:**")
+                    for i, chunk in enumerate(sources_to_store):
+                        snippet = chunk["text"][:1000] + ("..." if len(chunk["text"]) > 1000 else "")
+                        with st.expander(
+                            f"Source {i+1}: {chunk.get('section','')} (Page {chunk.get('page','?')})", expanded=False
+                        ):
+                            st.markdown(f"**Document:** {chunk.get('document','')}")
+                            st.markdown(f"**Section:** {chunk.get('section','')}")
+                            st.markdown(f"**Page:** {chunk.get('page','?')}")
+                            st.markdown("**Snippet:**")
+                            st.markdown(snippet)
+                            st.markdown("---")
+
+            # Store both the answer and sources in the chat history
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": full_response,
+                "sources": sources_to_store
+            })
         except Exception as e:
             full_response = f"Sorry, an error occurred: {e}"
             st.session_state.messages.append({"role": "assistant", "content": full_response})

@@ -4,6 +4,7 @@ faiss-cpu
 rank-bm25
 pymupdf
 groq
+google-generativeai
 tqdm
 scikit-learn
 numpy

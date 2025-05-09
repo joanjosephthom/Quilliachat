@@ -12,7 +12,7 @@ def get_secret(key, default=""):
     return _st_secrets.get(key, os.environ.get(key, default))
 
 # Retrieval settings
-RETRIEVAL_STRATEGY = "hybrid"
+RETRIEVAL_STRATEGY = "dense"
 BM25_WEIGHT = 0.3
 DENSE_WEIGHT = 0.7
 TOP_K_CHUNKS = 5
@@ -29,11 +29,11 @@ EMBEDDING_MODELS = {
 }
 EMBEDDING_MODEL = EMBEDDING_MODELS["all-MiniLM-L6-v2"]
 LLM_MODEL = "llama-3.3-70b-versatile"
-DEEPSEEK_MODEL = "deepseek/deepseek-r1"
+
 
 # API keys (secure for both local and Streamlit Cloud)
 GROQ_API_KEY = get_secret("GROQ_API_KEY")
-OPENROUTER_API_KEY = get_secret("OPENROUTER_API_KEY")
+GEMINI_API_KEY = get_secret("OPENROUTER_API_KEY")
 
 # UI settings
 APP_TITLE = "Quillia"

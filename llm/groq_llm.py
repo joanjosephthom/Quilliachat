@@ -58,6 +58,32 @@ class GroqLLM:
                 return answer
         else:
             return answer
+        
+    def stream_generate_response(
+        self,
+        query: str,
+        context_chunks: List[Dict[str, Any]],
+        max_tokens: int = 1024,
+        temperature: float = 0.2,
+    ):
+        context_text, used_chunks = build_token_limited_context(
+            context_chunks, max_tokens=8000, model_name=self.model
+        )
+        prompt = self._create_prompt(query, context_text)
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant that answers questions based on the provided context."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=temperature,
+            max_tokens=max_tokens,
+            stream=True
+        )
+        for chunk in response:
+            delta = chunk.choices[0].delta
+            if hasattr(delta, "content") and delta.content:
+                yield delta.content
 
     def _create_prompt(self, query: str, context: str) -> str:
         """Create a highly structured, reference-aware prompt for grounded QA."""
