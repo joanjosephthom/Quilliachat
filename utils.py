@@ -17,11 +17,19 @@ def cosine_sim(vec1: np.ndarray, vec2: np.ndarray) -> float:
     """Compute cosine similarity between two vectors."""
     return cosine_similarity(vec1.reshape(1, -1), vec2.reshape(1, -1))[0][0]
 
+
 def normalize_text(text: str) -> str:
     """Normalize text by removing extra whitespace and special characters."""
     text = re.sub(r'\s+', ' ', text)
     text = text.strip()
     return text
+
+def count_tokens(text: str) -> int:
+    """Estimate the number of tokens in a text string.
+    This is a simple approximation. For more accurate counts,
+    use the tokenizer from the specific model.
+    """
+    return len(text.split())
 
 def create_cache_dir() -> str:
     """Create a cache directory if it doesn't exist."""
