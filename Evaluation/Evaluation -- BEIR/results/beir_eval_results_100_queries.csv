@@ -1,0 +1,501 @@
+pdf,question,retriever,dense_model,query_expansion,top_k,hit,rank,latency,cosine_sim,recall@k,memory_mb
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,bm25,,False,5,True,1,0,,True,547.265625
+nfcorpus,Exploiting Autophagy to Live Longer,bm25,,False,5,False,,0,,False,547.265625
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,bm25,,False,5,False,,0,,False,547.28125
+nfcorpus,What’s Driving America’s Obesity Problem?,bm25,,False,5,False,,0,,False,547.484375
+nfcorpus,Who Should be Careful About Curcumin?,bm25,,False,5,False,,0,,False,547.546875
+nfcorpus,Foods for Glaucoma,bm25,,False,5,True,1,0,,True,547.546875
+nfcorpus,What is Actually in Chicken Nuggets?,bm25,,False,5,True,4,0,,True,547.546875
+nfcorpus,What Do Meat Purge and Cola Have in Common?,bm25,,False,5,False,,0,,False,547.640625
+nfcorpus,Chronic Headaches and Pork Parasites,bm25,,False,5,True,1,0,,True,547.734375
+nfcorpus,Stopping Heart Disease in Childhood,bm25,,False,5,True,1,0,,True,547.734375
+nfcorpus,Food Dyes and ADHD,bm25,,False,5,True,1,0,,True,547.734375
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,bm25,,False,5,True,5,0,,True,547.734375
+nfcorpus,Starving Tumors of Their Blood Supply,bm25,,False,5,False,,0,,False,547.734375
+nfcorpus,Are Dental X-Rays Safe?,bm25,,False,5,True,1,0,,True,547.75
+nfcorpus,How Should I Take Probiotics?,bm25,,False,5,True,4,0,,True,547.75
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,bm25,,False,5,False,,0,,False,547.75
+nfcorpus,Diet and Cellulite,bm25,,False,5,True,1,0,,True,547.75
+nfcorpus,Best Treatment for Constipation,bm25,,False,5,True,2,0,,True,547.75
+nfcorpus,Should We Avoid Titanium Dioxide?,bm25,,False,5,True,1,0,,True,547.75
+nfcorpus,Avoiding Cooked Meat Carcinogens,bm25,,False,5,True,1,0,,True,547.75
+nfcorpus,Plant-Based Diets for Psoriasis,bm25,,False,5,False,,0,,False,547.75
+nfcorpus,Increasing Muscle Strength with Fenugreek,bm25,,False,5,False,,0,,False,547.75
+nfcorpus,How Chemically Contaminated Are We?,bm25,,False,5,False,,0,,False,547.75
+nfcorpus,Treating an Enlarged Prostate With Diet,bm25,,False,5,True,5,0,,True,547.75
+nfcorpus,Optimal Phytosterol Dose and Source,bm25,,False,5,True,1,0,,True,547.796875
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,bm25,,False,5,True,2,0,,True,547.890625
+nfcorpus,Mercury Testing Recommended Before Pregnancy,bm25,,False,5,True,2,0,,True,547.890625
+nfcorpus,Stool Size and Breast Cancer Risk,bm25,,False,5,True,2,0,,True,547.890625
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,bm25,,False,5,True,5,0,,True,547.90625
+nfcorpus,Breast Cancer and Diet,bm25,,False,5,False,,0,,False,547.90625
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,bm25,,False,5,True,1,0,,True,547.90625
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,bm25,,False,5,False,,0,,False,547.90625
+nfcorpus,Didn't another study show carnitine was good for the heart?,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,Any update on the scary in vitro avocado data?,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,bm25,,False,5,True,4,0,,True,547.921875
+nfcorpus,What about pepper plus turmeric in V8 juice?,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,Is annatto food coloring safe?,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,Fresh fruit versus frozen--which is better?,bm25,,False,5,True,2,0,,True,547.921875
+nfcorpus,Are krill oil supplements better than fish oil capsules?,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,Is apple cider vinegar good for you?,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,How can you believe in any scientific study?,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,bm25,,False,5,True,4,0,,True,547.921875
+nfcorpus,accidents,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,adenovirus 36,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,African-American,bm25,,False,5,True,3,0,,True,547.921875
+nfcorpus,airport scanners,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,Alli,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,alternative medicine,bm25,,False,5,True,3,0,,True,547.921875
+nfcorpus,American Dental Association,bm25,,False,5,True,5,0,,True,547.921875
+nfcorpus,amnesia,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,aneurysm,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,anisakis,bm25,,False,5,True,3,0,,True,547.921875
+nfcorpus,antinutrients,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,apnea,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,Arkansas,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,ascorbic acid,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,Atkins diet,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,avocados,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,bagels,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,beans,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,benzene,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,betel nuts,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,bioavailability,bm25,,False,5,False,,0,,False,547.921875
+nfcorpus,black raspberries,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,blood clots,bm25,,False,5,True,1,0,,True,547.921875
+nfcorpus,BMAA,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,bone fractures,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,BPH,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,BRCA genes,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,breast pain,bm25,,False,5,True,3,0,,True,547.9375
+nfcorpus,bronchiolitis obliterans,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,Bush administration,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,cadaverine,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,caloric restriction,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,canker sores,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,carcinogens,bm25,,False,5,True,4,0,,True,547.9375
+nfcorpus,carrageenan,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,cauliflower,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,chanterelle mushrooms,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,Chernobyl,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,chickpeas,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,chlorophyll,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,cinnamon,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,cocaine,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,coffee,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,coma,bm25,,False,5,True,2,0,,True,547.9375
+nfcorpus,cooking methods,bm25,,False,5,True,5,0,,True,547.9375
+nfcorpus,cortisol,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,crib death,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,cumin,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,Czechoslovakia,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,deafness,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,DHA,bm25,,False,5,True,2,0,,True,547.9375
+nfcorpus,dietary scoring,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,domoic acid,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,Dr. Dean Ornish,bm25,,False,5,True,3,0,,True,547.9375
+nfcorpus,Dr. Walter Willett,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,ECMO,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,eggnog,bm25,,False,5,False,,0,,False,547.9375
+nfcorpus,endocrine disruptors,bm25,,False,5,True,1,0,,True,547.9375
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.3310737609863281,True,349.640625
+nfcorpus,Exploiting Autophagy to Live Longer,dense,all-MiniLM-L6-v2,False,5,True,4,0,0.21012191474437714,True,365.75
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.13364723324775696,True,346.265625
+nfcorpus,What’s Driving America’s Obesity Problem?,dense,all-MiniLM-L6-v2,False,5,True,4,0,-0.02779199182987213,True,343.53125
+nfcorpus,Who Should be Careful About Curcumin?,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.19539806246757507,True,353.828125
+nfcorpus,Foods for Glaucoma,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.24917596578598022,True,353.8125
+nfcorpus,What is Actually in Chicken Nuggets?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.3986866772174835,True,369.671875
+nfcorpus,What Do Meat Purge and Cola Have in Common?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.1251094490289688,False,380.359375
+nfcorpus,Chronic Headaches and Pork Parasites,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.34320366382598877,True,390.828125
+nfcorpus,Stopping Heart Disease in Childhood,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.1770566999912262,True,395.734375
+nfcorpus,Food Dyes and ADHD,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.37833845615386963,True,385.125
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.27757519483566284,True,387.40625
+nfcorpus,Starving Tumors of Their Blood Supply,dense,all-MiniLM-L6-v2,False,5,False,,0,0.08429810404777527,False,362.375
+nfcorpus,Are Dental X-Rays Safe?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.4620107412338257,True,373.5
+nfcorpus,How Should I Take Probiotics?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.12136407941579819,True,373.609375
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.13548970222473145,True,375.296875
+nfcorpus,Diet and Cellulite,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.31152111291885376,True,380.015625
+nfcorpus,Best Treatment for Constipation,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.26653915643692017,True,380.15625
+nfcorpus,Should We Avoid Titanium Dioxide?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.18103261291980743,True,380.296875
+nfcorpus,Avoiding Cooked Meat Carcinogens,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.24416670203208923,True,380.328125
+nfcorpus,Plant-Based Diets for Psoriasis,dense,all-MiniLM-L6-v2,False,5,False,,0,0.18933838605880737,False,385.078125
+nfcorpus,Increasing Muscle Strength with Fenugreek,dense,all-MiniLM-L6-v2,False,5,False,,0,0.09261216223239899,False,385.125
+nfcorpus,How Chemically Contaminated Are We?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.14885881543159485,False,385.203125
+nfcorpus,Treating an Enlarged Prostate With Diet,dense,all-MiniLM-L6-v2,False,5,True,5,0,0.25803816318511963,True,385.3125
+nfcorpus,Optimal Phytosterol Dose and Source,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.4484075903892517,True,391.671875
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5540279150009155,True,395.921875
+nfcorpus,Mercury Testing Recommended Before Pregnancy,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.2274596393108368,True,396.0625
+nfcorpus,Stool Size and Breast Cancer Risk,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,396.09375
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6759209632873535,True,405.921875
+nfcorpus,Breast Cancer and Diet,dense,all-MiniLM-L6-v2,False,5,False,,0,0.5968012809753418,False,414.40625
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0,True,398.265625
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.15073859691619873,True,411.671875
+nfcorpus,Didn't another study show carnitine was good for the heart?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3887013792991638,False,431.78125
+nfcorpus,Any update on the scary in vitro avocado data?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3165854215621948,False,431.9375
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.3574572801589966,True,451.75
+nfcorpus,What about pepper plus turmeric in V8 juice?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.628650426864624,False,451.9375
+nfcorpus,Is annatto food coloring safe?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.19988113641738892,True,466.171875
+nfcorpus,Fresh fruit versus frozen--which is better?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6282566785812378,True,471.0625
+nfcorpus,Are krill oil supplements better than fish oil capsules?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.1631012260913849,True,475.515625
+nfcorpus,Is apple cider vinegar good for you?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.9999998211860657,True,485.53125
+nfcorpus,How can you believe in any scientific study?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.07754810899496078,False,376.78125
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.39739254117012024,True,393.84375
+nfcorpus,accidents,dense,all-MiniLM-L6-v2,False,5,False,,0,0.06142261624336243,False,408.921875
+nfcorpus,adenovirus 36,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.7220202684402466,True,413.71875
+nfcorpus,African-American,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.14342299103736877,True,426.78125
+nfcorpus,airport scanners,dense,all-MiniLM-L6-v2,False,5,True,5,0,0.3189675807952881,True,441.78125
+nfcorpus,Alli,dense,all-MiniLM-L6-v2,False,5,False,,0,0.12105326354503632,False,454.28125
+nfcorpus,alternative medicine,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.24005380272865295,True,464.453125
+nfcorpus,American Dental Association,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3985181748867035,False,464.75
+nfcorpus,amnesia,dense,all-MiniLM-L6-v2,False,5,False,,0,0.2866084575653076,False,475.28125
+nfcorpus,aneurysm,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5610854029655457,True,399.53125
+nfcorpus,anisakis,dense,all-MiniLM-L6-v2,False,5,True,5,0,0.13740889728069305,True,428.859375
+nfcorpus,antinutrients,dense,all-MiniLM-L6-v2,False,5,False,,0,0.16081440448760986,False,423.75
+nfcorpus,apnea,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,429.875
+nfcorpus,Arkansas,dense,all-MiniLM-L6-v2,False,5,False,,0,0.006821088492870331,False,434.46875
+nfcorpus,ascorbic acid,dense,all-MiniLM-L6-v2,False,5,False,,0,0.05660969018936157,False,446.265625
+nfcorpus,Atkins diet,dense,all-MiniLM-L6-v2,False,5,True,4,0,0.4646690785884857,True,446.453125
+nfcorpus,avocados,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.4404726028442383,True,434.1875
+nfcorpus,bagels,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3840057849884033,False,435.953125
+nfcorpus,beans,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.09408342838287354,True,436.015625
+nfcorpus,benzene,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0,True,470.625
+nfcorpus,betel nuts,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.6270893812179565,True,480.703125
+nfcorpus,bioavailability,dense,all-MiniLM-L6-v2,False,5,False,,0,0.35367682576179504,False,480.859375
+nfcorpus,black raspberries,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.7079049348831177,True,481.03125
+nfcorpus,blood clots,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.12047085165977478,True,491.296875
+nfcorpus,BMAA,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.22465655207633972,True,500.4375
+nfcorpus,bone fractures,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.4362502098083496,True,500.53125
+nfcorpus,BPH,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.3248331844806671,True,510.578125
+nfcorpus,BRCA genes,dense,all-MiniLM-L6-v2,False,5,False,,0,0.12832723557949066,False,510.625
+nfcorpus,breast pain,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.26097914576530457,True,510.734375
+nfcorpus,bronchiolitis obliterans,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.3545144498348236,True,542.28125
+nfcorpus,Bush administration,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3852270245552063,False,547.359375
+nfcorpus,cadaverine,dense,all-MiniLM-L6-v2,False,5,True,5,0,0.367718905210495,True,546.234375
+nfcorpus,caloric restriction,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5287562608718872,True,546.34375
+nfcorpus,canker sores,dense,all-MiniLM-L6-v2,False,5,False,,0,0.2642546594142914,False,540.34375
+nfcorpus,carcinogens,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.24134282767772675,True,546.78125
+nfcorpus,carrageenan,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0,True,540.8125
+nfcorpus,cauliflower,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6407070159912109,True,545.671875
+nfcorpus,chanterelle mushrooms,dense,all-MiniLM-L6-v2,False,5,False,,0,0.366771399974823,False,555.421875
+nfcorpus,Chernobyl,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.7105503082275391,True,558.953125
+nfcorpus,chickpeas,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.4875524044036865,True,464.125
+nfcorpus,chlorophyll,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.16381694376468658,True,478.796875
+nfcorpus,cinnamon,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6664135456085205,True,483.84375
+nfcorpus,cocaine,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.3924415111541748,True,483.953125
+nfcorpus,coffee,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.22419388592243195,True,484.0
+nfcorpus,coma,dense,all-MiniLM-L6-v2,False,5,False,,0,0.10319387167692184,False,483.265625
+nfcorpus,cooking methods,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.16789062321186066,True,485.84375
+nfcorpus,cortisol,dense,all-MiniLM-L6-v2,False,5,False,,0,0.19825983047485352,False,495.25
+nfcorpus,crib death,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,497.46875
+nfcorpus,cumin,dense,all-MiniLM-L6-v2,False,5,False,,0,0.03597486764192581,False,497.640625
+nfcorpus,Czechoslovakia,dense,all-MiniLM-L6-v2,False,5,False,,0,0.2600941061973572,False,349.546875
+nfcorpus,deafness,dense,all-MiniLM-L6-v2,False,5,False,,0,0.0843031257390976,False,364.671875
+nfcorpus,DHA,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.23478277027606964,True,375.125
+nfcorpus,dietary scoring,dense,all-MiniLM-L6-v2,False,5,False,,0,0.4813663065433502,False,380.140625
+nfcorpus,domoic acid,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.8593223690986633,True,389.234375
+nfcorpus,Dr. Dean Ornish,dense,all-MiniLM-L6-v2,False,5,False,,0,0.07303987443447113,False,404.96875
+nfcorpus,Dr. Walter Willett,dense,all-MiniLM-L6-v2,False,5,False,,0,0.011522706598043442,False,405.125
+nfcorpus,ECMO,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.8237287998199463,True,409.453125
+nfcorpus,eggnog,dense,all-MiniLM-L6-v2,False,5,False,,0,0.2621246576309204,False,409.71875
+nfcorpus,endocrine disruptors,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.07846176624298096,True,414.71875
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,dense,all-mpnet-base-v2,False,5,True,1,0,0.3348563015460968,True,416.40625
+nfcorpus,Exploiting Autophagy to Live Longer,dense,all-mpnet-base-v2,False,5,True,4,0,0.10326188802719116,True,462.890625
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,dense,all-mpnet-base-v2,False,5,True,1,0,0.3368656039237976,True,474.171875
+nfcorpus,What’s Driving America’s Obesity Problem?,dense,all-mpnet-base-v2,False,5,True,3,0,0.15956571698188782,True,451.609375
+nfcorpus,Who Should be Careful About Curcumin?,dense,all-mpnet-base-v2,False,5,True,1,0,0.5565582513809204,True,428.546875
+nfcorpus,Foods for Glaucoma,dense,all-mpnet-base-v2,False,5,True,1,0,0.26048868894577026,True,435.140625
+nfcorpus,What is Actually in Chicken Nuggets?,dense,all-mpnet-base-v2,False,5,True,1,0,0.4474390149116516,True,476.890625
+nfcorpus,What Do Meat Purge and Cola Have in Common?,dense,all-mpnet-base-v2,False,5,False,,0,0.24544373154640198,False,486.09375
+nfcorpus,Chronic Headaches and Pork Parasites,dense,all-mpnet-base-v2,False,5,True,2,0,0.3511125445365906,True,487.109375
+nfcorpus,Stopping Heart Disease in Childhood,dense,all-mpnet-base-v2,False,5,True,1,0,0.12788790464401245,True,498.984375
+nfcorpus,Food Dyes and ADHD,dense,all-mpnet-base-v2,False,5,True,1,0,0.38901951909065247,True,466.640625
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,dense,all-mpnet-base-v2,False,5,True,5,0,0.351847767829895,True,479.34375
+nfcorpus,Starving Tumors of Their Blood Supply,dense,all-mpnet-base-v2,False,5,True,1,0,0.13238893449306488,True,486.609375
+nfcorpus,Are Dental X-Rays Safe?,dense,all-mpnet-base-v2,False,5,True,1,0,0.5122268199920654,True,454.8125
+nfcorpus,How Should I Take Probiotics?,dense,all-mpnet-base-v2,False,5,True,1,0,0.24920736253261566,True,482.015625
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,dense,all-mpnet-base-v2,False,5,True,2,0,0.15699928998947144,True,489.40625
+nfcorpus,Diet and Cellulite,dense,all-mpnet-base-v2,False,5,True,1,0,0.30482837557792664,True,476.484375
+nfcorpus,Best Treatment for Constipation,dense,all-mpnet-base-v2,False,5,True,2,0,0.1860910952091217,True,428.546875
+nfcorpus,Should We Avoid Titanium Dioxide?,dense,all-mpnet-base-v2,False,5,True,1,0,0.18443085253238678,True,437.671875
+nfcorpus,Avoiding Cooked Meat Carcinogens,dense,all-mpnet-base-v2,False,5,True,1,0,0.22252511978149414,True,416.6875
+nfcorpus,Plant-Based Diets for Psoriasis,dense,all-mpnet-base-v2,False,5,True,3,0,0.2960396111011505,True,364.359375
+nfcorpus,Increasing Muscle Strength with Fenugreek,dense,all-mpnet-base-v2,False,5,False,,0,0.20747512578964233,False,364.109375
+nfcorpus,How Chemically Contaminated Are We?,dense,all-mpnet-base-v2,False,5,False,,0,0.15781578421592712,False,431.578125
+nfcorpus,Treating an Enlarged Prostate With Diet,dense,all-mpnet-base-v2,False,5,True,3,0,0.2724241614341736,True,454.90625
+nfcorpus,Optimal Phytosterol Dose and Source,dense,all-mpnet-base-v2,False,5,True,1,0,0.35846254229545593,True,480.40625
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,dense,all-mpnet-base-v2,False,5,True,1,0,0.6185773611068726,True,506.234375
+nfcorpus,Mercury Testing Recommended Before Pregnancy,dense,all-mpnet-base-v2,False,5,True,1,0,0.7151604890823364,True,521.40625
+nfcorpus,Stool Size and Breast Cancer Risk,dense,all-mpnet-base-v2,False,5,True,1,0,0.5661118030548096,True,531.21875
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,dense,all-mpnet-base-v2,False,5,True,3,0,0.7634639143943787,True,520.109375
+nfcorpus,Breast Cancer and Diet,dense,all-mpnet-base-v2,False,5,False,,0,0.6817145943641663,False,488.734375
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,dense,all-mpnet-base-v2,False,5,True,1,0,1.0,True,427.484375
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,dense,all-mpnet-base-v2,False,5,True,1,0,0.1693447232246399,True,487.3125
+nfcorpus,Didn't another study show carnitine was good for the heart?,dense,all-mpnet-base-v2,False,5,False,,0,0.2664717435836792,False,541.46875
+nfcorpus,Any update on the scary in vitro avocado data?,dense,all-mpnet-base-v2,False,5,False,,0,0.408099502325058,False,571.953125
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,dense,all-mpnet-base-v2,False,5,True,1,0,0.4314127564430237,True,594.109375
+nfcorpus,What about pepper plus turmeric in V8 juice?,dense,all-mpnet-base-v2,False,5,False,,0,0.5479214191436768,False,606.609375
+nfcorpus,Is annatto food coloring safe?,dense,all-mpnet-base-v2,False,5,True,3,0,0.4511556625366211,True,632.046875
+nfcorpus,Fresh fruit versus frozen--which is better?,dense,all-mpnet-base-v2,False,5,True,1,0,0.7668411135673523,True,633.953125
+nfcorpus,Are krill oil supplements better than fish oil capsules?,dense,all-mpnet-base-v2,False,5,True,1,0,0.24725699424743652,True,641.234375
+nfcorpus,Is apple cider vinegar good for you?,dense,all-mpnet-base-v2,False,5,True,1,0,1.0,True,662.171875
+nfcorpus,How can you believe in any scientific study?,dense,all-mpnet-base-v2,False,5,False,,0,0.25524336099624634,False,489.140625
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,dense,all-mpnet-base-v2,False,5,True,3,0,0.4878730773925781,True,388.25
+nfcorpus,accidents,dense,all-mpnet-base-v2,False,5,False,,0,-0.029592374339699745,False,451.03125
+nfcorpus,adenovirus 36,dense,all-mpnet-base-v2,False,5,True,1,0,0.7662066221237183,True,482.609375
+nfcorpus,African-American,dense,all-mpnet-base-v2,False,5,True,3,0,0.07103341817855835,True,434.1875
+nfcorpus,airport scanners,dense,all-mpnet-base-v2,False,5,False,,0,0.11934799700975418,False,442.0
+nfcorpus,Alli,dense,all-mpnet-base-v2,False,5,False,,0,0.31896501779556274,False,436.421875
+nfcorpus,alternative medicine,dense,all-mpnet-base-v2,False,5,True,1,0,0.19635306298732758,True,400.015625
+nfcorpus,American Dental Association,dense,all-mpnet-base-v2,False,5,True,1,0,1.0000001192092896,True,383.71875
+nfcorpus,amnesia,dense,all-mpnet-base-v2,False,5,False,,0,0.09231100976467133,False,441.140625
+nfcorpus,aneurysm,dense,all-mpnet-base-v2,False,5,True,1,0,-0.021214241161942482,True,390.03125
+nfcorpus,anisakis,dense,all-mpnet-base-v2,False,5,False,,0,0.14005768299102783,False,438.9375
+nfcorpus,antinutrients,dense,all-mpnet-base-v2,False,5,False,,0,0.1523641049861908,False,383.03125
+nfcorpus,apnea,dense,all-mpnet-base-v2,False,5,False,,0,0.1250559389591217,False,441.71875
+nfcorpus,Arkansas,dense,all-mpnet-base-v2,False,5,False,,0,0.12284299731254578,False,421.265625
+nfcorpus,ascorbic acid,dense,all-mpnet-base-v2,False,5,True,3,0,0.09389621019363403,True,409.046875
+nfcorpus,Atkins diet,dense,all-mpnet-base-v2,False,5,True,1,0,0.720650851726532,True,332.921875
+nfcorpus,avocados,dense,all-mpnet-base-v2,False,5,True,2,0,0.5529910326004028,True,449.921875
+nfcorpus,bagels,dense,all-mpnet-base-v2,False,5,False,,0,0.5096215605735779,False,443.203125
+nfcorpus,beans,dense,all-mpnet-base-v2,False,5,True,1,0,0.09911761432886124,True,365.890625
+nfcorpus,benzene,dense,all-mpnet-base-v2,False,5,True,1,0,1.0000001192092896,True,410.234375
+nfcorpus,betel nuts,dense,all-mpnet-base-v2,False,5,True,1,0,1.0000001192092896,True,401.375
+nfcorpus,bioavailability,dense,all-mpnet-base-v2,False,5,False,,0,0.2984911799430847,False,446.265625
+nfcorpus,black raspberries,dense,all-mpnet-base-v2,False,5,True,2,0,0.5070142149925232,True,494.09375
+nfcorpus,blood clots,dense,all-mpnet-base-v2,False,5,True,2,0,0.21242287755012512,True,423.625
+nfcorpus,BMAA,dense,all-mpnet-base-v2,False,5,True,1,0,0.2155805081129074,True,442.578125
+nfcorpus,bone fractures,dense,all-mpnet-base-v2,False,5,True,1,0,0.5938128232955933,True,458.21875
+nfcorpus,BPH,dense,all-mpnet-base-v2,False,5,True,1,0,0.3922073543071747,True,450.09375
+nfcorpus,BRCA genes,dense,all-mpnet-base-v2,False,5,False,,0,0.13411590456962585,False,435.15625
+nfcorpus,breast pain,dense,all-mpnet-base-v2,False,5,True,2,0,0.326358437538147,True,360.984375
+nfcorpus,bronchiolitis obliterans,dense,all-mpnet-base-v2,False,5,True,1,0,0.25361180305480957,True,495.859375
+nfcorpus,Bush administration,dense,all-mpnet-base-v2,False,5,False,,0,0.0986851155757904,False,498.265625
+nfcorpus,cadaverine,dense,all-mpnet-base-v2,False,5,True,3,0,0.24137894809246063,True,491.015625
+nfcorpus,caloric restriction,dense,all-mpnet-base-v2,False,5,True,1,0,0.5692241787910461,True,499.5
+nfcorpus,canker sores,dense,all-mpnet-base-v2,False,5,False,,0,0.29650336503982544,False,457.71875
+nfcorpus,carcinogens,dense,all-mpnet-base-v2,False,5,True,1,0,0.377227783203125,True,501.40625
+nfcorpus,carrageenan,dense,all-mpnet-base-v2,False,5,True,1,0,1.0,True,485.9375
+nfcorpus,cauliflower,dense,all-mpnet-base-v2,False,5,True,1,0,0.6679565906524658,True,428.9375
+nfcorpus,chanterelle mushrooms,dense,all-mpnet-base-v2,False,5,False,,0,0.3439571261405945,False,530.546875
+nfcorpus,Chernobyl,dense,all-mpnet-base-v2,False,5,True,1,0,0.8063287138938904,True,449.9375
+nfcorpus,chickpeas,dense,all-mpnet-base-v2,False,5,True,1,0,0.6139865517616272,True,421.453125
+nfcorpus,chlorophyll,dense,all-mpnet-base-v2,False,5,False,,0,0.35924702882766724,False,402.109375
+nfcorpus,cinnamon,dense,all-mpnet-base-v2,False,5,True,1,0,0.6730550527572632,True,445.046875
+nfcorpus,cocaine,dense,all-mpnet-base-v2,False,5,True,1,0,0.422498881816864,True,348.296875
+nfcorpus,coffee,dense,all-mpnet-base-v2,False,5,True,2,0,0.27985432744026184,True,260.0625
+nfcorpus,coma,dense,all-mpnet-base-v2,False,5,False,,0,0.061083078384399414,False,235.296875
+nfcorpus,cooking methods,dense,all-mpnet-base-v2,False,5,True,1,0,0.053987689316272736,True,447.5
+nfcorpus,cortisol,dense,all-mpnet-base-v2,False,5,False,,0,0.2974005937576294,False,266.28125
+nfcorpus,crib death,dense,all-mpnet-base-v2,False,5,True,1,0,1.0,True,275.84375
+nfcorpus,cumin,dense,all-mpnet-base-v2,False,5,False,,0,0.3910125494003296,False,269.921875
+nfcorpus,Czechoslovakia,dense,all-mpnet-base-v2,False,5,False,,0,0.2128121554851532,False,110.296875
+nfcorpus,deafness,dense,all-mpnet-base-v2,False,5,False,,0,0.2399381399154663,False,363.171875
+nfcorpus,DHA,dense,all-mpnet-base-v2,False,5,True,1,0,0.622481107711792,True,385.0
+nfcorpus,dietary scoring,dense,all-mpnet-base-v2,False,5,False,,0,0.6475313901901245,False,318.046875
+nfcorpus,domoic acid,dense,all-mpnet-base-v2,False,5,True,1,0,0.8880404829978943,True,274.84375
+nfcorpus,Dr. Dean Ornish,dense,all-mpnet-base-v2,False,5,True,4,0,0.0987510085105896,True,467.015625
+nfcorpus,Dr. Walter Willett,dense,all-mpnet-base-v2,False,5,False,,0,0.08969031274318695,False,317.59375
+nfcorpus,ECMO,dense,all-mpnet-base-v2,False,5,True,3,0,0.16248057782649994,True,506.53125
+nfcorpus,eggnog,dense,all-mpnet-base-v2,False,5,False,,0,0.16022875905036926,False,323.328125
+nfcorpus,endocrine disruptors,dense,all-mpnet-base-v2,False,5,True,1,0,0.2978791296482086,True,310.4375
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.30375200510025024,True,526.5625
+nfcorpus,Exploiting Autophagy to Live Longer,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.1403225064277649,False,558.984375
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.13364723324775696,True,564.953125
+nfcorpus,What’s Driving America’s Obesity Problem?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.20593133568763733,False,832.75
+nfcorpus,Who Should be Careful About Curcumin?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.19260337948799133,False,827.65625
+nfcorpus,Foods for Glaucoma,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.2170434445142746,True,827.25
+nfcorpus,What is Actually in Chicken Nuggets?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.3986866772174835,True,827.75
+nfcorpus,What Do Meat Purge and Cola Have in Common?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2602880597114563,False,817.359375
+nfcorpus,Chronic Headaches and Pork Parasites,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.34320366382598877,True,823.53125
+nfcorpus,Stopping Heart Disease in Childhood,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.04723825678229332,True,821.78125
+nfcorpus,Food Dyes and ADHD,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.37833845615386963,True,527.484375
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.04352729767560959,True,526.796875
+nfcorpus,Starving Tumors of Their Blood Supply,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.334269642829895,False,528.421875
+nfcorpus,Are Dental X-Rays Safe?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.2986587882041931,True,540.984375
+nfcorpus,How Should I Take Probiotics?,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.1087907925248146,True,542.671875
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.10296246409416199,False,550.984375
+nfcorpus,Diet and Cellulite,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.31152111291885376,True,557.078125
+nfcorpus,Best Treatment for Constipation,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.20970487594604492,True,557.59375
+nfcorpus,Should We Avoid Titanium Dioxide?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.18103261291980743,True,558.078125
+nfcorpus,Avoiding Cooked Meat Carcinogens,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.26855677366256714,True,558.109375
+nfcorpus,Plant-Based Diets for Psoriasis,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.20955049991607666,False,710.984375
+nfcorpus,Increasing Muscle Strength with Fenugreek,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.18697386980056763,False,721.53125
+nfcorpus,How Chemically Contaminated Are We?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.13619884848594666,False,729.65625
+nfcorpus,Treating an Enlarged Prostate With Diet,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.24309314787387848,True,732.390625
+nfcorpus,Optimal Phytosterol Dose and Source,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.4484075903892517,True,734.03125
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5540279150009155,True,741.546875
+nfcorpus,Mercury Testing Recommended Before Pregnancy,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5636535286903381,True,747.46875
+nfcorpus,Stool Size and Breast Cancer Risk,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,748.078125
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.35304155945777893,True,743.828125
+nfcorpus,Breast Cancer and Diet,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.6072788238525391,False,738.796875
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,1.0,True,411.21875
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2546427547931671,False,420.921875
+nfcorpus,Didn't another study show carnitine was good for the heart?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.3395417630672455,False,704.6875
+nfcorpus,Any update on the scary in vitro avocado data?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2884483337402344,False,711.765625
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.25917911529541016,True,716.4375
+nfcorpus,What about pepper plus turmeric in V8 juice?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.40284860134124756,False,723.671875
+nfcorpus,Is annatto food coloring safe?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.19988113641738892,True,735.265625
+nfcorpus,Fresh fruit versus frozen--which is better?,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.48096105456352234,True,740.9375
+nfcorpus,Are krill oil supplements better than fish oil capsules?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.1631012260913849,True,775.3125
+nfcorpus,Is apple cider vinegar good for you?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.9999998211860657,True,753.421875
+nfcorpus,How can you believe in any scientific study?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.27001774311065674,False,1544.015625
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,hybrid,all-MiniLM-L6-v2,False,5,True,4,0,0.4657937288284302,True,1550.265625
+nfcorpus,accidents,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.15264417231082916,False,1556.734375
+nfcorpus,adenovirus 36,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.6305059790611267,True,1570.0
+nfcorpus,African-American,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.13833214342594147,True,1576.203125
+nfcorpus,airport scanners,hybrid,all-MiniLM-L6-v2,False,5,True,5,0,0.3189675807952881,True,1588.953125
+nfcorpus,Alli,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.12105326354503632,False,1594.96875
+nfcorpus,alternative medicine,hybrid,all-MiniLM-L6-v2,False,5,True,4,0,0.1425042599439621,True,1595.015625
+nfcorpus,American Dental Association,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.3416757583618164,True,1595.0625
+nfcorpus,amnesia,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2866084575653076,False,1600.78125
+nfcorpus,aneurysm,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5610854029655457,True,1645.5
+nfcorpus,anisakis,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.7111495733261108,True,1645.5625
+nfcorpus,antinutrients,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.16081440448760986,False,1645.625
+nfcorpus,apnea,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,1651.390625
+nfcorpus,Arkansas,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.37055402994155884,False,1651.40625
+nfcorpus,ascorbic acid,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.05660969018936157,False,1663.015625
+nfcorpus,Atkins diet,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.4646690785884857,False,1663.046875
+nfcorpus,avocados,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.4051819443702698,True,1663.09375
+nfcorpus,bagels,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.3840057849884033,False,1669.515625
+nfcorpus,beans,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.18180617690086365,True,1669.515625
+nfcorpus,benzene,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,1.0,True,539.25
+nfcorpus,betel nuts,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.39515528082847595,False,552.296875
+nfcorpus,bioavailability,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.6262376308441162,False,559.921875
+nfcorpus,black raspberries,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.7079049348831177,True,562.015625
+nfcorpus,blood clots,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.14441445469856262,True,559.84375
+nfcorpus,BMAA,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.21227258443832397,True,563.03125
+nfcorpus,bone fractures,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.40049219131469727,True,564.984375
+nfcorpus,BPH,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.35786232352256775,True,821.375
+nfcorpus,BRCA genes,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.22311046719551086,False,823.0625
+nfcorpus,breast pain,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.2212352752685547,True,834.125
+nfcorpus,bronchiolitis obliterans,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.1573885679244995,True,1090.625
+nfcorpus,Bush administration,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.14062917232513428,False,1097.609375
+nfcorpus,cadaverine,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5112800598144531,True,1103.46875
+nfcorpus,caloric restriction,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5287562608718872,True,1100.109375
+nfcorpus,canker sores,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2642546594142914,False,1106.03125
+nfcorpus,carcinogens,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.453731894493103,True,1112.078125
+nfcorpus,carrageenan,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,1.0,True,1112.328125
+nfcorpus,cauliflower,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.6407070159912109,True,1112.609375
+nfcorpus,chanterelle mushrooms,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.4372302293777466,False,1113.796875
+nfcorpus,Chernobyl,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.246257022023201,True,1122.390625
+nfcorpus,chickpeas,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.4875524044036865,True,1657.75
+nfcorpus,chlorophyll,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.9999998807907104,True,1659.96875
+nfcorpus,cinnamon,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.6133130788803101,True,1660.109375
+nfcorpus,cocaine,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.3924415111541748,True,1660.140625
+nfcorpus,coffee,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.21577008068561554,True,1660.171875
+nfcorpus,coma,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.24769984185695648,True,1660.1875
+nfcorpus,cooking methods,hybrid,all-MiniLM-L6-v2,False,5,True,4,0,0.12491119652986526,True,1662.921875
+nfcorpus,cortisol,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.12002581357955933,False,1667.78125
+nfcorpus,crib death,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.3826960325241089,False,1672.703125
+nfcorpus,cumin,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.6055479049682617,False,1672.78125
+nfcorpus,Czechoslovakia,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2600941061973572,False,1239.140625
+nfcorpus,deafness,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.0843031257390976,False,1236.453125
+nfcorpus,DHA,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.45225250720977783,True,1236.90625
+nfcorpus,dietary scoring,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.08679395914077759,False,1237.328125
+nfcorpus,domoic acid,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.8593223690986633,True,1248.59375
+nfcorpus,Dr. Dean Ornish,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.16727901995182037,True,1249.453125
+nfcorpus,Dr. Walter Willett,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2479231059551239,False,1249.578125
+nfcorpus,ECMO,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.8237287998199463,True,1246.171875
+nfcorpus,eggnog,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2621246576309204,False,1246.375
+nfcorpus,endocrine disruptors,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.1721581220626831,True,1252.515625
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.30532968044281006,True,616.625
+nfcorpus,Exploiting Autophagy to Live Longer,hybrid,all-mpnet-base-v2,False,5,False,,0,0.10326188802719116,False,609.9375
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.4094136655330658,True,597.5625
+nfcorpus,What’s Driving America’s Obesity Problem?,hybrid,all-mpnet-base-v2,False,5,True,3,0,0.2452089935541153,True,648.296875
+nfcorpus,Who Should be Careful About Curcumin?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.2696017026901245,False,609.625
+nfcorpus,Foods for Glaucoma,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.2732727825641632,True,603.984375
+nfcorpus,What is Actually in Chicken Nuggets?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.4474390149116516,True,562.796875
+nfcorpus,What Do Meat Purge and Cola Have in Common?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.3434067368507385,False,567.46875
+nfcorpus,Chronic Headaches and Pork Parasites,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.35982275009155273,True,569.984375
+nfcorpus,Stopping Heart Disease in Childhood,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.0391455814242363,True,562.65625
+nfcorpus,Food Dyes and ADHD,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.38901951909065247,True,380.703125
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,hybrid,all-mpnet-base-v2,False,5,True,3,0,0.11718237400054932,True,513.53125
+nfcorpus,Starving Tumors of Their Blood Supply,hybrid,all-mpnet-base-v2,False,5,False,,0,0.19339260458946228,False,506.984375
+nfcorpus,Are Dental X-Rays Safe?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.400703489780426,True,432.046875
+nfcorpus,How Should I Take Probiotics?,hybrid,all-mpnet-base-v2,False,5,True,4,0,0.13222037255764008,True,596.09375
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.16691714525222778,False,447.671875
+nfcorpus,Diet and Cellulite,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.366923987865448,True,419.328125
+nfcorpus,Best Treatment for Constipation,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.2254866063594818,True,411.265625
+nfcorpus,Should We Avoid Titanium Dioxide?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.18443085253238678,True,416.90625
+nfcorpus,Avoiding Cooked Meat Carcinogens,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.22184647619724274,True,403.0625
+nfcorpus,Plant-Based Diets for Psoriasis,hybrid,all-mpnet-base-v2,False,5,False,,0,0.27751874923706055,False,766.1875
+nfcorpus,Increasing Muscle Strength with Fenugreek,hybrid,all-mpnet-base-v2,False,5,False,,0,0.20747512578964233,False,778.796875
+nfcorpus,How Chemically Contaminated Are We?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.21142807602882385,False,770.84375
+nfcorpus,Treating an Enlarged Prostate With Diet,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.23515456914901733,True,789.28125
+nfcorpus,Optimal Phytosterol Dose and Source,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.5181888937950134,True,804.78125
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.6185773611068726,True,626.171875
+nfcorpus,Mercury Testing Recommended Before Pregnancy,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.48248928785324097,True,700.34375
+nfcorpus,Stool Size and Breast Cancer Risk,hybrid,all-mpnet-base-v2,False,5,True,1,0,1.0,True,733.796875
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.4111986756324768,True,732.40625
+nfcorpus,Breast Cancer and Diet,hybrid,all-mpnet-base-v2,False,5,False,,0,0.6311614513397217,False,751.671875
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,hybrid,all-mpnet-base-v2,False,5,True,1,0,1.0,True,413.328125
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,hybrid,all-mpnet-base-v2,False,5,False,,0,0.1535879373550415,False,269.09375
+nfcorpus,Didn't another study show carnitine was good for the heart?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.40584105253219604,False,258.265625
+nfcorpus,Any update on the scary in vitro avocado data?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.43720972537994385,False,268.671875
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.3218930661678314,True,445.921875
+nfcorpus,What about pepper plus turmeric in V8 juice?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.3917492628097534,False,449.15625
+nfcorpus,Is annatto food coloring safe?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.25791293382644653,True,399.765625
+nfcorpus,Fresh fruit versus frozen--which is better?,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.5330380797386169,True,140.984375
+nfcorpus,Are krill oil supplements better than fish oil capsules?,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.22974705696105957,True,224.421875
+nfcorpus,Is apple cider vinegar good for you?,hybrid,all-mpnet-base-v2,False,5,True,1,0,1.0,True,214.078125
+nfcorpus,How can you believe in any scientific study?,hybrid,all-mpnet-base-v2,False,5,False,,0,0.41897135972976685,False,385.34375
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,hybrid,all-mpnet-base-v2,False,5,True,4,0,0.4878864884376526,True,566.46875
+nfcorpus,accidents,hybrid,all-mpnet-base-v2,False,5,False,,0,0.10073383152484894,False,549.3125
+nfcorpus,adenovirus 36,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.6256223320960999,True,572.109375
+nfcorpus,African-American,hybrid,all-mpnet-base-v2,False,5,True,3,0,0.1329445093870163,True,490.796875
+nfcorpus,airport scanners,hybrid,all-mpnet-base-v2,False,5,False,,0,0.11934799700975418,False,427.5625
+nfcorpus,Alli,hybrid,all-mpnet-base-v2,False,5,False,,0,0.31896501779556274,False,369.1875
+nfcorpus,alternative medicine,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.11802209913730621,True,575.765625
+nfcorpus,American Dental Association,hybrid,all-mpnet-base-v2,False,5,True,4,0,0.336492657661438,True,426.796875
+nfcorpus,amnesia,hybrid,all-mpnet-base-v2,False,5,False,,0,0.09231100976467133,False,387.3125
+nfcorpus,aneurysm,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.7026054859161377,True,400.0
+nfcorpus,anisakis,hybrid,all-mpnet-base-v2,False,5,True,3,0,0.6892377734184265,True,641.15625
+nfcorpus,antinutrients,hybrid,all-mpnet-base-v2,False,5,False,,0,0.1523641049861908,False,715.375
+nfcorpus,apnea,hybrid,all-mpnet-base-v2,False,5,True,1,0,1.0,True,647.828125
+nfcorpus,Arkansas,hybrid,all-mpnet-base-v2,False,5,False,,0,0.37625688314437866,False,739.28125
+nfcorpus,ascorbic acid,hybrid,all-mpnet-base-v2,False,5,False,,0,0.09389621019363403,False,699.640625
+nfcorpus,Atkins diet,hybrid,all-mpnet-base-v2,False,5,False,,0,0.45525139570236206,False,724.484375
+nfcorpus,avocados,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.5150403380393982,True,745.921875
+nfcorpus,bagels,hybrid,all-mpnet-base-v2,False,5,False,,0,0.5096215605735779,False,726.234375
+nfcorpus,beans,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.13620758056640625,True,718.53125
+nfcorpus,benzene,hybrid,all-mpnet-base-v2,False,5,True,1,0,1.0000001192092896,True,465.59375
+nfcorpus,betel nuts,hybrid,all-mpnet-base-v2,False,5,False,,0,0.5714770555496216,False,383.1875
+nfcorpus,bioavailability,hybrid,all-mpnet-base-v2,False,5,False,,0,0.7620762586593628,False,691.015625
+nfcorpus,black raspberries,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.7283552885055542,True,632.53125
+nfcorpus,blood clots,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.23572665452957153,True,682.453125
+nfcorpus,BMAA,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.2037760317325592,True,688.046875
+nfcorpus,bone fractures,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.5186115503311157,True,634.671875
+nfcorpus,BPH,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.4422738552093506,True,629.53125
+nfcorpus,BRCA genes,hybrid,all-mpnet-base-v2,False,5,False,,0,0.21864239871501923,False,644.5625
+nfcorpus,breast pain,hybrid,all-mpnet-base-v2,False,5,True,3,0,0.3710108697414398,True,672.046875
+nfcorpus,bronchiolitis obliterans,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.25361180305480957,True,537.796875
+nfcorpus,Bush administration,hybrid,all-mpnet-base-v2,False,5,False,,0,0.1369684934616089,False,596.203125
+nfcorpus,cadaverine,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.5536625385284424,True,279.546875
+nfcorpus,caloric restriction,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.5692241787910461,True,271.40625
+nfcorpus,canker sores,hybrid,all-mpnet-base-v2,False,5,False,,0,0.29650336503982544,False,300.203125
+nfcorpus,carcinogens,hybrid,all-mpnet-base-v2,False,5,True,4,0,0.43235284090042114,True,299.90625
+nfcorpus,carrageenan,hybrid,all-mpnet-base-v2,False,5,True,1,0,1.0,True,305.296875
+nfcorpus,cauliflower,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.6679565906524658,True,318.765625
+nfcorpus,chanterelle mushrooms,hybrid,all-mpnet-base-v2,False,5,False,,0,0.4943126142024994,False,314.828125
+nfcorpus,Chernobyl,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.3964383602142334,True,545.25
+nfcorpus,chickpeas,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.6139865517616272,True,341.328125
+nfcorpus,chlorophyll,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.9999999403953552,True,346.515625
+nfcorpus,cinnamon,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.6349532604217529,True,378.703125
+nfcorpus,cocaine,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.422498881816864,True,384.46875
+nfcorpus,coffee,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.2475203275680542,True,396.3125
+nfcorpus,coma,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.28117191791534424,True,409.828125
+nfcorpus,cooking methods,hybrid,all-mpnet-base-v2,False,5,True,4,0,0.23659446835517883,True,595.4375
+nfcorpus,cortisol,hybrid,all-mpnet-base-v2,False,5,False,,0,0.25040334463119507,False,571.984375
+nfcorpus,crib death,hybrid,all-mpnet-base-v2,False,5,False,,0,0.36086711287498474,False,686.234375
+nfcorpus,cumin,hybrid,all-mpnet-base-v2,False,5,False,,0,0.8079794049263,False,522.09375
+nfcorpus,Czechoslovakia,hybrid,all-mpnet-base-v2,False,5,False,,0,0.2128121554851532,False,454.90625
+nfcorpus,deafness,hybrid,all-mpnet-base-v2,False,5,False,,0,0.2399381399154663,False,495.765625
+nfcorpus,DHA,hybrid,all-mpnet-base-v2,False,5,True,2,0,0.6084455847740173,True,499.90625
+nfcorpus,dietary scoring,hybrid,all-mpnet-base-v2,False,5,False,,0,0.19140474498271942,False,684.125
+nfcorpus,domoic acid,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.8880404829978943,True,641.03125
+nfcorpus,Dr. Dean Ornish,hybrid,all-mpnet-base-v2,False,5,True,3,0,0.19641947746276855,True,634.875
+nfcorpus,Dr. Walter Willett,hybrid,all-mpnet-base-v2,False,5,False,,0,0.1815257966518402,False,617.3125
+nfcorpus,ECMO,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.8996319770812988,True,610.890625
+nfcorpus,eggnog,hybrid,all-mpnet-base-v2,False,5,False,,0,0.16022875905036926,False,542.421875
+nfcorpus,endocrine disruptors,hybrid,all-mpnet-base-v2,False,5,True,1,0,0.2978791296482086,True,529.484375

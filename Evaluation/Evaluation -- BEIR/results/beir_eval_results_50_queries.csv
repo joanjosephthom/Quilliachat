@@ -1,0 +1,301 @@
+pdf,question,retriever,dense_model,query_expansion,top_k,hit,rank,latency,cosine_sim,recall@k,memory_mb
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,882.765625
+nfcorpus,Exploiting Autophagy to Live Longer,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1236.015625
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1401.046875
+nfcorpus,What’s Driving America’s Obesity Problem?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1260.28125
+nfcorpus,Who Should be Careful About Curcumin?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1410.375
+nfcorpus,Foods for Glaucoma,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1558.40625
+nfcorpus,What is Actually in Chicken Nuggets?,bm25,all-MiniLM-L6-v2,False,5,True,4,0,,True,1810.5625
+nfcorpus,What Do Meat Purge and Cola Have in Common?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1988.828125
+nfcorpus,Chronic Headaches and Pork Parasites,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1211.296875
+nfcorpus,Stopping Heart Disease in Childhood,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1380.859375
+nfcorpus,Food Dyes and ADHD,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1562.5
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,bm25,all-MiniLM-L6-v2,False,5,True,5,0,,True,1603.140625
+nfcorpus,Starving Tumors of Their Blood Supply,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1823.40625
+nfcorpus,Are Dental X-Rays Safe?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1789.203125
+nfcorpus,How Should I Take Probiotics?,bm25,all-MiniLM-L6-v2,False,5,True,4,0,,True,1289.046875
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1399.265625
+nfcorpus,Diet and Cellulite,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1623.609375
+nfcorpus,Best Treatment for Constipation,bm25,all-MiniLM-L6-v2,False,5,True,2,0,,True,1669.640625
+nfcorpus,Should We Avoid Titanium Dioxide?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1887.4375
+nfcorpus,Avoiding Cooked Meat Carcinogens,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,2050.234375
+nfcorpus,Plant-Based Diets for Psoriasis,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1085.203125
+nfcorpus,Increasing Muscle Strength with Fenugreek,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1370.578125
+nfcorpus,How Chemically Contaminated Are We?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1556.75
+nfcorpus,Treating an Enlarged Prostate With Diet,bm25,all-MiniLM-L6-v2,False,5,True,5,0,,True,1737.71875
+nfcorpus,Optimal Phytosterol Dose and Source,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1889.390625
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,bm25,all-MiniLM-L6-v2,False,5,True,2,0,,True,1644.5
+nfcorpus,Mercury Testing Recommended Before Pregnancy,bm25,all-MiniLM-L6-v2,False,5,True,2,0,,True,1942.28125
+nfcorpus,Stool Size and Breast Cancer Risk,bm25,all-MiniLM-L6-v2,False,5,True,2,0,,True,1227.0
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,bm25,all-MiniLM-L6-v2,False,5,True,5,0,,True,1376.1875
+nfcorpus,Breast Cancer and Diet,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1516.0625
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1466.296875
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1728.3125
+nfcorpus,Didn't another study show carnitine was good for the heart?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1887.6875
+nfcorpus,Any update on the scary in vitro avocado data?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1158.359375
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,bm25,all-MiniLM-L6-v2,False,5,True,4,0,,True,1398.734375
+nfcorpus,What about pepper plus turmeric in V8 juice?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1613.484375
+nfcorpus,Is annatto food coloring safe?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1742.671875
+nfcorpus,Fresh fruit versus frozen--which is better?,bm25,all-MiniLM-L6-v2,False,5,True,2,0,,True,1908.84375
+nfcorpus,Are krill oil supplements better than fish oil capsules?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,2116.296875
+nfcorpus,Is apple cider vinegar good for you?,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1263.203125
+nfcorpus,How can you believe in any scientific study?,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1382.421875
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,bm25,all-MiniLM-L6-v2,False,5,True,4,0,,True,1482.515625
+nfcorpus,accidents,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1309.09375
+nfcorpus,adenovirus 36,bm25,all-MiniLM-L6-v2,False,5,True,1,0,,True,1615.75
+nfcorpus,African-American,bm25,all-MiniLM-L6-v2,False,5,True,3,0,,True,1827.796875
+nfcorpus,airport scanners,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,2029.40625
+nfcorpus,Alli,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1279.265625
+nfcorpus,alternative medicine,bm25,all-MiniLM-L6-v2,False,5,True,3,0,,True,1115.109375
+nfcorpus,American Dental Association,bm25,all-MiniLM-L6-v2,False,5,True,5,0,,True,1353.609375
+nfcorpus,amnesia,bm25,all-MiniLM-L6-v2,False,5,False,,0,,False,1405.4375
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2243.546875
+nfcorpus,Exploiting Autophagy to Live Longer,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2586.859375
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2005.265625
+nfcorpus,What’s Driving America’s Obesity Problem?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,1825.703125
+nfcorpus,Who Should be Careful About Curcumin?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2080.875
+nfcorpus,Foods for Glaucoma,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1957.921875
+nfcorpus,What is Actually in Chicken Nuggets?,bm25,all-MiniLM-L6-v2,True,5,True,4,0,,True,2332.109375
+nfcorpus,What Do Meat Purge and Cola Have in Common?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,1912.8125
+nfcorpus,Chronic Headaches and Pork Parasites,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1669.375
+nfcorpus,Stopping Heart Disease in Childhood,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2028.03125
+nfcorpus,Food Dyes and ADHD,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1996.640625
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,bm25,all-MiniLM-L6-v2,True,5,True,5,0,,True,2282.421875
+nfcorpus,Starving Tumors of Their Blood Supply,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2492.15625
+nfcorpus,Are Dental X-Rays Safe?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1335.015625
+nfcorpus,How Should I Take Probiotics?,bm25,all-MiniLM-L6-v2,True,5,True,4,0,,True,1643.796875
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,True,2062.96875
+nfcorpus,Diet and Cellulite,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2162.25
+nfcorpus,Best Treatment for Constipation,bm25,all-MiniLM-L6-v2,True,5,True,2,0,,True,1863.375
+nfcorpus,Should We Avoid Titanium Dioxide?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2391.46875
+nfcorpus,Avoiding Cooked Meat Carcinogens,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1532.34375
+nfcorpus,Plant-Based Diets for Psoriasis,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2005.9375
+nfcorpus,Increasing Muscle Strength with Fenugreek,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2120.8125
+nfcorpus,How Chemically Contaminated Are We?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,1953.078125
+nfcorpus,Treating an Enlarged Prostate With Diet,bm25,all-MiniLM-L6-v2,True,5,True,5,0,,True,2517.453125
+nfcorpus,Optimal Phytosterol Dose and Source,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2592.453125
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,bm25,all-MiniLM-L6-v2,True,5,True,2,0,,True,2068.265625
+nfcorpus,Mercury Testing Recommended Before Pregnancy,bm25,all-MiniLM-L6-v2,True,5,True,2,0,,True,2065.125
+nfcorpus,Stool Size and Breast Cancer Risk,bm25,all-MiniLM-L6-v2,True,5,True,2,0,,True,1893.109375
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,bm25,all-MiniLM-L6-v2,True,5,True,5,0,,True,2355.140625
+nfcorpus,Breast Cancer and Diet,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,1931.671875
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2065.8125
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,1962.234375
+nfcorpus,Didn't another study show carnitine was good for the heart?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2206.59375
+nfcorpus,Any update on the scary in vitro avocado data?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2332.234375
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,bm25,all-MiniLM-L6-v2,True,5,True,4,0,,True,2271.546875
+nfcorpus,What about pepper plus turmeric in V8 juice?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2344.34375
+nfcorpus,Is annatto food coloring safe?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2068.90625
+nfcorpus,Fresh fruit versus frozen--which is better?,bm25,all-MiniLM-L6-v2,True,5,True,2,0,,True,1654.171875
+nfcorpus,Are krill oil supplements better than fish oil capsules?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1889.078125
+nfcorpus,Is apple cider vinegar good for you?,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,2210.5
+nfcorpus,How can you believe in any scientific study?,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2406.1875
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,bm25,all-MiniLM-L6-v2,True,5,True,4,0,,True,2747.40625
+nfcorpus,accidents,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2058.78125
+nfcorpus,adenovirus 36,bm25,all-MiniLM-L6-v2,True,5,True,1,0,,True,1988.578125
+nfcorpus,African-American,bm25,all-MiniLM-L6-v2,True,5,True,3,0,,True,1995.15625
+nfcorpus,airport scanners,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2311.6875
+nfcorpus,Alli,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2484.921875
+nfcorpus,alternative medicine,bm25,all-MiniLM-L6-v2,True,5,True,3,0,,True,2654.96875
+nfcorpus,American Dental Association,bm25,all-MiniLM-L6-v2,True,5,True,5,0,,True,2039.4375
+nfcorpus,amnesia,bm25,all-MiniLM-L6-v2,True,5,False,,0,,False,2254.359375
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.46942171454429626,True,2176.484375
+nfcorpus,Exploiting Autophagy to Live Longer,dense,all-MiniLM-L6-v2,False,5,True,4,0,0.34355637431144714,True,2314.734375
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.21237540245056152,True,2468.578125
+nfcorpus,What’s Driving America’s Obesity Problem?,dense,all-MiniLM-L6-v2,False,5,True,4,0,0.29635488986968994,True,2537.6875
+nfcorpus,Who Should be Careful About Curcumin?,dense,all-MiniLM-L6-v2,False,5,True,2,0,-0.03357627987861633,True,1386.0
+nfcorpus,Foods for Glaucoma,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.9130824208259583,True,1740.96875
+nfcorpus,What is Actually in Chicken Nuggets?,dense,all-MiniLM-L6-v2,False,5,True,1,0,-0.03498347848653793,True,1317.78125
+nfcorpus,What Do Meat Purge and Cola Have in Common?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3201170563697815,False,1589.078125
+nfcorpus,Chronic Headaches and Pork Parasites,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6524441242218018,True,1833.46875
+nfcorpus,Stopping Heart Disease in Childhood,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.4360063076019287,True,2026.21875
+nfcorpus,Food Dyes and ADHD,dense,all-MiniLM-L6-v2,False,5,True,1,0,-0.17959395051002502,True,2176.375
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.1286149024963379,True,1456.890625
+nfcorpus,Starving Tumors of Their Blood Supply,dense,all-MiniLM-L6-v2,False,5,False,,0,0.2985578179359436,False,1551.53125
+nfcorpus,Are Dental X-Rays Safe?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.14355537295341492,True,1752.0625
+nfcorpus,How Should I Take Probiotics?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5419360399246216,True,1954.34375
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5917376279830933,True,2130.1875
+nfcorpus,Diet and Cellulite,dense,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,2308.75
+nfcorpus,Best Treatment for Constipation,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.22596129775047302,True,1355.859375
+nfcorpus,Should We Avoid Titanium Dioxide?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.20674851536750793,True,1502.390625
+nfcorpus,Avoiding Cooked Meat Carcinogens,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6410138607025146,True,1647.375
+nfcorpus,Plant-Based Diets for Psoriasis,dense,all-MiniLM-L6-v2,False,5,False,,0,0.4799381196498871,False,1420.453125
+nfcorpus,Increasing Muscle Strength with Fenugreek,dense,all-MiniLM-L6-v2,False,5,False,,0,0.15727919340133667,False,1723.421875
+nfcorpus,How Chemically Contaminated Are We?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.15975049138069153,False,1846.765625
+nfcorpus,Treating an Enlarged Prostate With Diet,dense,all-MiniLM-L6-v2,False,5,True,5,0,0.3951020836830139,True,2078.140625
+nfcorpus,Optimal Phytosterol Dose and Source,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.29350894689559937,True,1334.546875
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.3155791163444519,True,1118.671875
+nfcorpus,Mercury Testing Recommended Before Pregnancy,dense,all-MiniLM-L6-v2,False,5,True,2,0,0.22745968401432037,True,1392.390625
+nfcorpus,Stool Size and Breast Cancer Risk,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5208880305290222,True,1524.640625
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.7660412788391113,True,1719.734375
+nfcorpus,Breast Cancer and Diet,dense,all-MiniLM-L6-v2,False,5,False,,0,0.06214674934744835,False,1835.09375
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.38658595085144043,True,1818.25
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.29315507411956787,True,1406.9375
+nfcorpus,Didn't another study show carnitine was good for the heart?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.3208811581134796,False,1611.859375
+nfcorpus,Any update on the scary in vitro avocado data?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.4097021818161011,False,1658.375
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.5822610259056091,True,1432.125
+nfcorpus,What about pepper plus turmeric in V8 juice?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.06716395914554596,False,1616.03125
+nfcorpus,Is annatto food coloring safe?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.19988106191158295,True,1830.046875
+nfcorpus,Fresh fruit versus frozen--which is better?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.48884785175323486,True,1263.828125
+nfcorpus,Are krill oil supplements better than fish oil capsules?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.6912236213684082,True,1348.203125
+nfcorpus,Is apple cider vinegar good for you?,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.4617471992969513,True,1296.796875
+nfcorpus,How can you believe in any scientific study?,dense,all-MiniLM-L6-v2,False,5,False,,0,0.22099363803863525,False,1489.453125
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.6920101642608643,True,1525.75
+nfcorpus,accidents,dense,all-MiniLM-L6-v2,False,5,False,,0,0.061422526836395264,False,1689.3125
+nfcorpus,adenovirus 36,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.26227349042892456,True,1940.25
+nfcorpus,African-American,dense,all-MiniLM-L6-v2,False,5,True,3,0,0.28521212935447693,True,1141.609375
+nfcorpus,airport scanners,dense,all-MiniLM-L6-v2,False,5,True,5,0,0.0798957496881485,True,1411.234375
+nfcorpus,Alli,dense,all-MiniLM-L6-v2,False,5,False,,0,0.1210533082485199,False,1608.03125
+nfcorpus,alternative medicine,dense,all-MiniLM-L6-v2,False,5,True,1,0,0.35857468843460083,True,1649.359375
+nfcorpus,American Dental Association,dense,all-MiniLM-L6-v2,False,5,False,,0,0.2578611969947815,False,1582.171875
+nfcorpus,amnesia,dense,all-MiniLM-L6-v2,False,5,False,,0,0.16817642748355865,False,1827.71875
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.46942171454429626,True,1532.375
+nfcorpus,Exploiting Autophagy to Live Longer,dense,all-MiniLM-L6-v2,True,5,True,4,0,0.34355637431144714,True,1936.34375
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.21237540245056152,True,2112.46875
+nfcorpus,What’s Driving America’s Obesity Problem?,dense,all-MiniLM-L6-v2,True,5,True,4,0,0.29635488986968994,True,1976.53125
+nfcorpus,Who Should be Careful About Curcumin?,dense,all-MiniLM-L6-v2,True,5,True,2,0,-0.03357627987861633,True,2434.40625
+nfcorpus,Foods for Glaucoma,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.9130824208259583,True,2668.625
+nfcorpus,What is Actually in Chicken Nuggets?,dense,all-MiniLM-L6-v2,True,5,True,1,0,-0.03498347848653793,True,2849.96875
+nfcorpus,What Do Meat Purge and Cola Have in Common?,dense,all-MiniLM-L6-v2,True,5,False,,0,0.3201170563697815,False,2135.765625
+nfcorpus,Chronic Headaches and Pork Parasites,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.6524441242218018,True,2310.53125
+nfcorpus,Stopping Heart Disease in Childhood,dense,all-MiniLM-L6-v2,True,5,True,3,0,0.4360063076019287,True,2488.609375
+nfcorpus,Food Dyes and ADHD,dense,all-MiniLM-L6-v2,True,5,True,1,0,-0.17959395051002502,True,2579.046875
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.1286149024963379,True,2787.75
+nfcorpus,Starving Tumors of Their Blood Supply,dense,all-MiniLM-L6-v2,True,5,False,,0,0.2985578179359436,False,2667.5625
+nfcorpus,Are Dental X-Rays Safe?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.14355537295341492,True,2142.359375
+nfcorpus,How Should I Take Probiotics?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.5419360399246216,True,2323.546875
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.5917376279830933,True,2389.484375
+nfcorpus,Diet and Cellulite,dense,all-MiniLM-L6-v2,True,5,True,1,0,1.0000001192092896,True,2571.046875
+nfcorpus,Best Treatment for Constipation,dense,all-MiniLM-L6-v2,True,5,True,2,0,0.22596129775047302,True,2528.96875
+nfcorpus,Should We Avoid Titanium Dioxide?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.20674851536750793,True,2730.953125
+nfcorpus,Avoiding Cooked Meat Carcinogens,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.6410138607025146,True,2795.3125
+nfcorpus,Plant-Based Diets for Psoriasis,dense,all-MiniLM-L6-v2,True,5,False,,0,0.4799381196498871,False,2071.890625
+nfcorpus,Increasing Muscle Strength with Fenugreek,dense,all-MiniLM-L6-v2,True,5,False,,0,0.15727919340133667,False,2256.03125
+nfcorpus,How Chemically Contaminated Are We?,dense,all-MiniLM-L6-v2,True,5,False,,0,0.15975049138069153,False,1868.078125
+nfcorpus,Treating an Enlarged Prostate With Diet,dense,all-MiniLM-L6-v2,True,5,True,5,0,0.3951020836830139,True,2159.078125
+nfcorpus,Optimal Phytosterol Dose and Source,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.29350894689559937,True,2399.421875
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.3155791163444519,True,2663.265625
+nfcorpus,Mercury Testing Recommended Before Pregnancy,dense,all-MiniLM-L6-v2,True,5,True,2,0,0.22745968401432037,True,2109.203125
+nfcorpus,Stool Size and Breast Cancer Risk,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.5208880305290222,True,2287.125
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.7660412788391113,True,2437.375
+nfcorpus,Breast Cancer and Diet,dense,all-MiniLM-L6-v2,True,5,False,,0,0.06214674934744835,False,2164.953125
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.38658595085144043,True,2303.171875
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.29315507411956787,True,2410.609375
+nfcorpus,Didn't another study show carnitine was good for the heart?,dense,all-MiniLM-L6-v2,True,5,False,,0,0.3208811581134796,False,2804.28125
+nfcorpus,Any update on the scary in vitro avocado data?,dense,all-MiniLM-L6-v2,True,5,False,,0,0.4097021818161011,False,2093.453125
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.5822610259056091,True,2255.046875
+nfcorpus,What about pepper plus turmeric in V8 juice?,dense,all-MiniLM-L6-v2,True,5,False,,0,0.06716395914554596,False,2447.984375
+nfcorpus,Is annatto food coloring safe?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.19988106191158295,True,2606.46875
+nfcorpus,Fresh fruit versus frozen--which is better?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.48884785175323486,True,2760.453125
+nfcorpus,Are krill oil supplements better than fish oil capsules?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.6912236213684082,True,2683.625
+nfcorpus,Is apple cider vinegar good for you?,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.4617471992969513,True,2940.625
+nfcorpus,How can you believe in any scientific study?,dense,all-MiniLM-L6-v2,True,5,False,,0,0.22099363803863525,False,2292.65625
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,dense,all-MiniLM-L6-v2,True,5,True,3,0,0.6920101642608643,True,2417.96875
+nfcorpus,accidents,dense,all-MiniLM-L6-v2,True,5,False,,0,0.061422526836395264,False,2617.34375
+nfcorpus,adenovirus 36,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.26227349042892456,True,2777.75
+nfcorpus,African-American,dense,all-MiniLM-L6-v2,True,5,True,3,0,0.28521212935447693,True,2492.296875
+nfcorpus,airport scanners,dense,all-MiniLM-L6-v2,True,5,True,5,0,0.0798957496881485,True,2767.296875
+nfcorpus,Alli,dense,all-MiniLM-L6-v2,True,5,False,,0,0.1210533082485199,False,2109.8125
+nfcorpus,alternative medicine,dense,all-MiniLM-L6-v2,True,5,True,1,0,0.35857468843460083,True,2248.65625
+nfcorpus,American Dental Association,dense,all-MiniLM-L6-v2,True,5,False,,0,0.2578611969947815,True,2450.53125
+nfcorpus,amnesia,dense,all-MiniLM-L6-v2,True,5,False,,0,0.16817642748355865,False,2620.8125
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.8112907409667969,True,2729.125
+nfcorpus,Exploiting Autophagy to Live Longer,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.17420515418052673,False,2732.96875
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.21237540245056152,True,2890.328125
+nfcorpus,What’s Driving America’s Obesity Problem?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.33615583181381226,False,2113.96875
+nfcorpus,Who Should be Careful About Curcumin?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.11803916841745377,False,2240.171875
+nfcorpus,Foods for Glaucoma,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.7727020978927612,True,2390.0625
+nfcorpus,What is Actually in Chicken Nuggets?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,-0.03498347848653793,True,2112.828125
+nfcorpus,What Do Meat Purge and Cola Have in Common?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.2428463101387024,False,2338.96875
+nfcorpus,Chronic Headaches and Pork Parasites,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.6524441242218018,True,2461.65625
+nfcorpus,Stopping Heart Disease in Childhood,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.23918338119983673,True,2557.6875
+nfcorpus,Food Dyes and ADHD,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,-0.17959395051002502,True,1969.578125
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.3102227449417114,True,2117.078125
+nfcorpus,Starving Tumors of Their Blood Supply,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.34038227796554565,False,2249.15625
+nfcorpus,Are Dental X-Rays Safe?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.18494005501270294,True,2344.53125
+nfcorpus,How Should I Take Probiotics?,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.11462971568107605,True,2539.015625
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.4186795949935913,False,2732.0
+nfcorpus,Diet and Cellulite,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,1.0000001192092896,True,1552.640625
+nfcorpus,Best Treatment for Constipation,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.2155047506093979,True,1592.828125
+nfcorpus,Should We Avoid Titanium Dioxide?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.20674851536750793,True,1278.734375
+nfcorpus,Avoiding Cooked Meat Carcinogens,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.6245821714401245,True,1583.140625
+nfcorpus,Plant-Based Diets for Psoriasis,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.556421160697937,False,1744.453125
+nfcorpus,Increasing Muscle Strength with Fenugreek,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.006841657683253288,False,1991.140625
+nfcorpus,How Chemically Contaminated Are We?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.1564168632030487,False,1228.90625
+nfcorpus,Treating an Enlarged Prostate With Diet,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.34303924441337585,True,1479.28125
+nfcorpus,Optimal Phytosterol Dose and Source,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.29350894689559937,True,1630.828125
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.3155791163444519,True,1817.453125
+nfcorpus,Mercury Testing Recommended Before Pregnancy,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5636535286903381,True,1951.546875
+nfcorpus,Stool Size and Breast Cancer Risk,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.5208880305290222,True,2177.578125
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.32037609815597534,True,1349.015625
+nfcorpus,Breast Cancer and Diet,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.09810370951890945,False,1507.78125
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.38658595085144043,True,1096.84375
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.4469802975654602,False,1555.21875
+nfcorpus,Didn't another study show carnitine was good for the heart?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.3825685381889343,False,1709.40625
+nfcorpus,Any update on the scary in vitro avocado data?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.440472811460495,False,1870.5
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.4312942624092102,True,1962.203125
+nfcorpus,What about pepper plus turmeric in V8 juice?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.3378434181213379,False,859.140625
+nfcorpus,Is annatto food coloring safe?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.19988106191158295,True,1167.09375
+nfcorpus,Fresh fruit versus frozen--which is better?,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.4113926589488983,True,1242.5625
+nfcorpus,Are krill oil supplements better than fish oil capsules?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.6912236213684082,True,1384.140625
+nfcorpus,Is apple cider vinegar good for you?,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.4617471992969513,True,1665.15625
+nfcorpus,How can you believe in any scientific study?,hybrid,all-MiniLM-L6-v2,False,5,False,,0,-0.04491478204727173,False,1769.234375
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,hybrid,all-MiniLM-L6-v2,False,5,True,4,0,0.6491186618804932,True,1318.484375
+nfcorpus,accidents,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.1526440680027008,False,1446.140625
+nfcorpus,adenovirus 36,hybrid,all-MiniLM-L6-v2,False,5,True,1,0,0.3548206090927124,True,1655.734375
+nfcorpus,African-American,hybrid,all-MiniLM-L6-v2,False,5,True,2,0,0.5401016473770142,True,1626.015625
+nfcorpus,airport scanners,hybrid,all-MiniLM-L6-v2,False,5,True,5,0,0.0798957496881485,True,1787.46875
+nfcorpus,Alli,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.1210533082485199,False,2022.609375
+nfcorpus,alternative medicine,hybrid,all-MiniLM-L6-v2,False,5,True,4,0,0.1745069921016693,True,1292.84375
+nfcorpus,American Dental Association,hybrid,all-MiniLM-L6-v2,False,5,True,3,0,0.2568542957305908,True,1479.09375
+nfcorpus,amnesia,hybrid,all-MiniLM-L6-v2,False,5,False,,0,0.16817642748355865,False,1639.640625
+nfcorpus,Do Cholesterol Statin Drugs Cause Breast Cancer?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.8112907409667969,True,2111.734375
+nfcorpus,Exploiting Autophagy to Live Longer,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.17420515418052673,False,2595.421875
+nfcorpus,How to Reduce Exposure to Alkylphenols Through Your Diet,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.21237540245056152,True,2616.484375
+nfcorpus,What’s Driving America’s Obesity Problem?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.33615583181381226,False,2860.234375
+nfcorpus,Who Should be Careful About Curcumin?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.11803916841745377,False,2091.65625
+nfcorpus,Foods for Glaucoma,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.7727020978927612,True,2071.09375
+nfcorpus,What is Actually in Chicken Nuggets?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,-0.03498347848653793,True,2208.265625
+nfcorpus,What Do Meat Purge and Cola Have in Common?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.2428463101387024,False,2415.828125
+nfcorpus,Chronic Headaches and Pork Parasites,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.6524441242218018,True,2585.359375
+nfcorpus,Stopping Heart Disease in Childhood,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.23918338119983673,True,2755.625
+nfcorpus,Food Dyes and ADHD,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,-0.17959395051002502,True,2143.03125
+nfcorpus,How Citrus Might Help Keep Your Hands Warm,hybrid,all-MiniLM-L6-v2,True,5,True,3,0,0.3102227449417114,True,2325.484375
+nfcorpus,Starving Tumors of Their Blood Supply,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.34038227796554565,False,2386.546875
+nfcorpus,Are Dental X-Rays Safe?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.18494005501270294,True,2467.046875
+nfcorpus,How Should I Take Probiotics?,hybrid,all-MiniLM-L6-v2,True,5,True,3,0,0.11462971568107605,True,2570.859375
+nfcorpus,Breast Cancer & Alcohol: How Much is Safe?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.4186795949935913,True,2548.125
+nfcorpus,Diet and Cellulite,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,1.0000001192092896,True,2053.9375
+nfcorpus,Best Treatment for Constipation,hybrid,all-MiniLM-L6-v2,True,5,True,2,0,0.2155047506093979,True,2087.203125
+nfcorpus,Should We Avoid Titanium Dioxide?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.20674851536750793,True,2045.4375
+nfcorpus,Avoiding Cooked Meat Carcinogens,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.6245821714401245,True,2348.421875
+nfcorpus,Plant-Based Diets for Psoriasis,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.556421160697937,False,2465.46875
+nfcorpus,Increasing Muscle Strength with Fenugreek,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.006841657683253288,False,2713.90625
+nfcorpus,How Chemically Contaminated Are We?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.1564168632030487,False,2861.515625
+nfcorpus,Treating an Enlarged Prostate With Diet,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.34303924441337585,True,2176.078125
+nfcorpus,Optimal Phytosterol Dose and Source,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.29350894689559937,True,2139.734375
+nfcorpus,Is Caffeinated Tea Really Dehydrating?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.3155791163444519,True,2362.71875
+nfcorpus,Mercury Testing Recommended Before Pregnancy,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.5636535286903381,True,2451.796875
+nfcorpus,Stool Size and Breast Cancer Risk,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.5208880305290222,True,2630.53125
+nfcorpus,Vitamin D: Shedding some light on the new recommendations,hybrid,all-MiniLM-L6-v2,True,5,True,2,0,0.32037609815597534,True,2076.296875
+nfcorpus,Breast Cancer and Diet,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.09810370951890945,False,2284.828125
+nfcorpus,Can antioxidant-rich spices counteract the effects of a high-fat meal?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.38658595085144043,True,2320.9375
+nfcorpus,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.4469802975654602,False,2422.171875
+nfcorpus,Didn't another study show carnitine was good for the heart?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.3825685381889343,False,2628.03125
+nfcorpus,Any update on the scary in vitro avocado data?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.440472811460495,False,2768.4375
+nfcorpus,What do you think of Dr. Jenkins' take on paleolithic diets?,hybrid,all-MiniLM-L6-v2,True,5,True,2,0,0.4312942624092102,True,2047.390625
+nfcorpus,What about pepper plus turmeric in V8 juice?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.3378434181213379,False,2113.625
+nfcorpus,Is annatto food coloring safe?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.19988106191158295,True,2044.953125
+nfcorpus,Fresh fruit versus frozen--which is better?,hybrid,all-MiniLM-L6-v2,True,5,True,2,0,0.4113926589488983,True,2296.1875
+nfcorpus,Are krill oil supplements better than fish oil capsules?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.6912236213684082,True,2558.984375
+nfcorpus,Is apple cider vinegar good for you?,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.4617471992969513,True,2619.015625
+nfcorpus,How can you believe in any scientific study?,hybrid,all-MiniLM-L6-v2,True,5,False,,0,-0.04491478204727173,False,2047.796875
+nfcorpus,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,hybrid,all-MiniLM-L6-v2,True,5,True,4,0,0.6491186618804932,True,1943.796875
+nfcorpus,accidents,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.1526440680027008,False,2058.5625
+nfcorpus,adenovirus 36,hybrid,all-MiniLM-L6-v2,True,5,True,1,0,0.3548206090927124,True,2247.296875
+nfcorpus,African-American,hybrid,all-MiniLM-L6-v2,True,5,True,2,0,0.5401016473770142,True,2367.484375
+nfcorpus,airport scanners,hybrid,all-MiniLM-L6-v2,True,5,True,5,0,0.0798957496881485,True,2624.703125
+nfcorpus,Alli,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.1210533082485199,False,1813.734375
+nfcorpus,alternative medicine,hybrid,all-MiniLM-L6-v2,True,5,True,4,0,0.1745069921016693,True,2152.234375
+nfcorpus,American Dental Association,hybrid,all-MiniLM-L6-v2,True,5,True,3,0,0.2568542957305908,True,2089.125
+nfcorpus,amnesia,hybrid,all-MiniLM-L6-v2,True,5,False,,0,0.16817642748355865,False,2299.96875

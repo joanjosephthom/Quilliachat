@@ -23,13 +23,6 @@ def normalize_text(text: str) -> str:
     text = text.strip()
     return text
 
-def count_tokens(text: str) -> int:
-    """Estimate the number of tokens in a text string.
-    This is a simple approximation. For more accurate counts,
-    use the tokenizer from the specific model.
-    """
-    return len(text.split())
-
 def create_cache_dir() -> str:
     """Create a cache directory if it doesn't exist."""
     cache_dir = os.path.join(os.getcwd(), ".cache")

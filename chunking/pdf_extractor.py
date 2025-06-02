@@ -1,11 +1,8 @@
 """Module for extracting text from PDFs using multiple methods."""
 
-import os
-import io
 import fitz  # PyMuPDF
 import pdfplumber
 from pdfminer.high_level import extract_text as pdfminer_extract_text
-from typing import Optional
 
 class PDFExtractor:
     """Extract text from PDFs using multiple methods."""

@@ -31,7 +31,7 @@ EMBEDDING_MODEL = EMBEDDING_MODELS["all-MiniLM-L6-v2"]
 LLM_MODEL = "llama-3.3-70b-versatile"
 
 
-# API keys (secure for both local and Streamlit Cloud)
+# API keys 
 GROQ_API_KEY = get_secret("GROQ_API_KEY")
 GEMINI_API_KEY = get_secret("OPENROUTER_API_KEY")
 
